@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electricity.WE">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutwe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="WHITE ELECTRICITY-[ Neutral ]"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="It is neutral and suited to all temperaments. It is specially serviceable in removing pains in the abdomen, head and womb. Like Blue Electricity, it may be used to check haemorrhage. It may advantageously be applied tosores, and relieves intermittent neuralgic pains in cancer, etc. Internally it is useful in arthritis, balanitis, gastritis,inflammation if the intestines, mesenteritis, meningitis, megrim, muscular diseases, neuralgia, oesophagitis, orchitis,ovaritis, peritonitis, pharyngitis, pneumonia, stomatitis, tuberculosis, visceral diseases.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+ android:text="•We used for all types of disorders cerebellum, cerebrum and other parts of brain, sympathetic nerves its branches, ganglions, solar plexus, best restorative fluid.
+•Irritability, restlessness, fatigue and want to sleep but cat not.
+•Acts upon solar plexus and cerebellum.
+•Magnetic and electric energy.
+•Sympathetic and parasympathetic disorders, disorders of central nervous system.
+•Palpitation, neurasthenia, nervous exhaustion, debilitating condition of entire structure of organs and systems.
+•Maintain the nerve impulses and controls the functions and activities of body organs.
+•Fever,headache,migraine,hemicrania,prostration,nervousexhaustion,paralysis,with improper nerve impulses, neurasthenia, hypersensitivity, irritability, amnesia,mania, depression, anxiety, inflammatory lesions various external and internal body portions.
+•Strong painkiller, neuralgia, odontalgia, trigeminal neuralgia, herpeszoster.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="
+1] ARNICA MONTANA-20-Parts-\n
+Produces conditions upon the system quite similar to those resulting from injuries, falls blows, contusions,
+septic conditions, prophylactic of pus infection. After traumatic injuries, over use of any organ, strains. Arnica is
+deposited to cerebral congestion. Acts best in plethoric , feebly in debilitated with impoverished blood, cardiac
+dropsy with dyspnoea. A muscular tonic. Limbs and bodyache as if beaten. Joints as if sprained. Marked effect on
+blood. Affects the venous system inducing stasis. Echymosis and hemorrhages. Relaxed blood vesicles, black and
+blue spots. Tendency to hemorrhage and low fever states tendency to tissue degeneration. Abscesses that do not mature. Rheumatism of muscular and tendinous tissue, especially of back and shoulders. Aversion to tobacco. Thrombosis , hematocele.\n
+
+2] PETROSELINUM SATIVUM-10-Parts-Parsely-\n
+Urinary symptoms like, burning, tingling from perineum throughout whole urethra, sudden urging to urinate,
+itching , deep in urethra, milky discharge. Tonic for hair, skin, and eyes, reduce the release of histamine, rheumatism.\n
+
+3] GUAIACUM OFFICINALIS-10-Parts-Pock wood-\n
+Chief action is on fibrous tissue, and is especially adapted to the arthritic diathesis, rheumatism, and
+tonsillitis. Very valuable in acute rheumatism, syphilis. Promotes suppuration of abscesses. Contraction of limbs,
+stiffness and immobility, diuretic.\n
+
+4] RUTA GRAVEOLENS-10-Parts-Rue-bitterwortActs\n
+upon the periosteum and cartilages, eyes and uterus. Complaints from straining flexor tendons
+especially. Tendency to the formation of deposits in the periosteum, tendons and about joints, especially wrist.
+Overstrain of ocular muscles. All parts of the body are painful, as if bruised, sprains, lameness after sprains, jaundice, feeling of intense lassitude, weakness and despair.\n
+
+5] ACHILLEA MILLEFOLIUM-5-Parts-Yarrow-\n
+An valuable remedy for various types of hemorrhages, blood bright red. Incarcerated hernia, small pox, with great pain in pit of stomach. After operations for stones. Continued high temperature, hemoptysis. Used for cancer, chlorosis, dentition, diarrhea, dysmenorrhea, epilepsy, enuresis, fistula, lachrymal is, hematemesis, hematuria, hypochondriasis, hysteria, leucorrhea of children, antiseptic, to treat wounds, ulcers, sore furuncles, chilblains, cracks.\n
+
+6] ANTHEMIS NOBILIS-5-Parts-Sweet Chamomile-\n
+Gastric disturbances with coldness, coryza with much lachrymation, sneezing, pains at the region of liver and
+gallbladder, menstrual pains, itching of anus, pains along with spermatic cord, chilblains.
+
+7] TRAXACUM LEONTODON-5-Parts-Dandelion-\\n
+For gastric headaches, bilious attacks, cancer of bladder, flatulence, loss of appetite, liver enlargement,
+neuralgia of knee, specially acts on digestive system.\n
+
+8] GENISTA SCOPARIUS-5-Parts-Tinctoria-\n
+To treat tumors, rheumatism, diuretics, purgative and weak cardio active properties.\n
+
+9]SANGUINARIA CANADENSIS-5-Parts-\n
+	It is right sided remedy, and affects chiefly the mucus membrane, especially of the respiratory tract. It has marked Vaso-motor disturbances, as seen in the circumscribed redness of the cheek, flashes of the heat, burning in palms and soles. Burning sensation, like from hot water. Influenzas coughs. Phthisis. Local anesthetic, fever, antibacterial, antiviral.\n
+10] Sanguisorba officinal 5 parts\n
+It is said to cool the blood , stop bleeding clear heat and heal wound specially roots are used stop bloody dysentery nose bleeding it is applied on insect bites and in burning condition\n
+
+11] Taxus Baccta 4 parts\n
+All parts of plant except fleshy fruit .. it is use as anti spasmodic , cardiotonic , diaphoretic , expectorant ,narcotic and purgative 
+Asthma, bronchitis, hiccup, indigestion rheumatism and epilepsy \n
+
+12]Viscum Album 4 parts\n
+It is used to treat Fatigue, Nervousness Insomnia, agitation, panic attacks and decreased immunity\n
+
+13]Cimicifuga Racemosa 4 parts\n
+Arthritis ,muscle pain , diarrhea , cough suppressions , dysmenorrheal condition , Stimulation menstrual flow and useful in inflammatory condition\n
+
+14] Taraxacum Officinalis 4 parts\n
+Taraxacum Officinale also called is Kanphool  It can be used to obtain relief from the symptoms of kidney and bone disorders. It is also used for treating warts and acne. The use of this medication has been found to be beneficial for the patients suffering from diabetes.\n
+
+15] Agaricus muscarius 2parts\n
+Agaricus mushroom is used for cancer, type 2 diabetes, high cholesterol, “hardening of the arteries” (arteriosclerosis), ongoing liver disease, bloodstream disorders, and digestive problems. Other uses include prevention of heart disease, weakened bones (osteoporosis), and stomach ulcers. It is also used to boost the immune system and for physical and emotional stress.\n
+
+16]Menyanthus Trifolita 2 parts\n
+
+Tonic, cathartic, deobstruent and febrifuge. An extract is made from the leaves, which possesses strong tonic properties, and which renders great service in rheumatism, scurvy, and skin diseases. An infusion of 1 OZ. of the dried leaves to 1 pint of boiling water is taken in wineglassful doses, frequently repeated. It has also been recommended as an external application for dissolving glandular swellings. Finely powdered Buckbean leaves have been employed as a remedy for ague, being said to effect a cure when other means fail. In large doses, the powder is also purgative.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

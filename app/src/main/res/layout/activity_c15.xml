@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c15">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc15">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCEROSO-15"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="One of the Canceroso-remedy for hernia, for which it is used externally. Has also been used for strangulation of the intestine and some kinds of tumors. It is used as gastric remedy, protects peritoneum layer from rupture and also protects abdominal muscles.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+   android:text="•Tissue / glandular or anti degenerative remedies.
+•Stomach disorders and all types of gastric ailments.
+•Navel, cellular tissue, anorexia, gastric debility, Cancerous growths of stomach and hard Tumour in stomach.
+•In hernia of any type may be of inguinal, femoral, umbilical
+•Retching, vomiting, nausea or dyspepsia Acidity, Ulcers in Stomach,
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+android:text="
+1] CONDURANGO MARSDENIA-30-Parts-Condor Plant-\n
+Stimulate the digestive function and thus improve the general health. Pains produced by stomach cancer. Modifies secretions of digestive glands. Varicose ulcers, Lupus, chronic gastric catarrh, syphilis, and cancer, tumors, stricture of esophagus, vomiting of food and indurations.\n
+
+2] CONIUM MACULATUM-30-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+3] NUX VOMICA-20-Parts-Vomitting nut-\n
+Digestive tonic, menstrual problems, paralysis, rabies, erectile dysfunction [impotence], used in rat poison.\n
+
+4] RHUS TOXICODENDRON-20-Parts-Poison ivy-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc., producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+
+5] VINCETOXICUM OFFICINALIS-10-Parts-SageAntioxidant,\n
+antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin,
+induce vomiting, purgative, antitumor, snake bite etc.\n
+
+6] PIMPENELLA SAXIFRAGA-10-Parts-\n
+Used for upper respiratory tract infections, urinary tract infections, diuretic, kidney and bladder stone, calms nervous excitation, to helps digestion.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+     
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+
+
+</ScrollView>

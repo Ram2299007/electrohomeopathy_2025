@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".External_Appication.LOP">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutlop">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="LAW OF POLARITY "
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Count Mattie was impressed with teaching of Dr.Charuzain and Dr.M.Decle (1886) with reference to the polarity of human Body.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="       Dr. Charazain and Dr. Decle has discovered the polarity of human body. The Right half of body is negative and Left of body is positive.According to law of polarity human body is divide as following.
+"
+
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="  So, The right half of the face and neck are negative.
+                                The left half of the face and neck are positive.
+                                The inner side of the Arm and Legs are negative.
+                                The outer side of the Arm and Legs are positive.
+                                The right half of the chest and back (trunk) are negative.
+                                The left half of the chest  and back (trunk) are  positive.
+                                The top of the head is positive.
+                                The soles are negative."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="  Electral Fluid or External Liquid Remedies
+"
+
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="These liquids ,a kind of “electroids” are five in number.
+1)   Red Electricity (RE) :- This has positive action and suitable to people of lymphatic temperament. Applying to negative part of the body.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="2)   Yellow Electricity (YE) :- This has negative action and suitable to people of lymphatic temperament. Applying to positive part of the body.\n
+\n3)   Blue Electricity (BE) :- This has positive action and suitable to people of sanguine temperament.
+\n4)   Green Electricity (GE) :- This has negative action and suitable to people of sanguine temperament.
+\n5)   White Electricity (WE) :- This has neutral action and suitable to people of all constitutional types .\n
+          According to Dr. C.C. Mattie electricity are used both externally and internally, especially externally.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+            android:text="Chief body point is 5 , 15,  17,  18, 30 ( for effect on whole body )
+ "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text=" Alternate application of RE/YE, especially during convalescence or to restore health.
+ "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="As a rule the RE is first selected. If pain is under treatment ,we should wait for effect of RE before applying to YE
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="When neither RE nor YE produce any effect, WE should be used.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textViewd19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Length of application 5 to 30 second.\n
+As a rule, avoid oral use of YE and GE (negative electricity).\n
+Key Point of Electricity :-\n
+RE for Hypo function (Glandular)\n
+YE for Hyper-excitement (Dilator/ Relaxant)"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textVxiewd19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="BE for Acute Inflammation or Congestion (Vascular and C.V.S.)\n
+GE for Chronic Inflammation (Degeneration)\n
+WE for Nutritive, and restore Health (CNS and N.S.)
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="                The practice of invigorating and balancing the flow of life-energy or prana within the human being.
+      The fundamental law of nature, polarity; attraction of opposites through a balanced mid-point.
+           The human body has positive and negative pulse and currents of energy flowing, constantly.
+                Polarity focuses on a very subtle, high-frequency energy – in the east is known as qi or prana but is commonly referred to as life-energy.
+           Polarity therapy approach to health and wellness is a positive one that looks to give its recipients a number of tools to use in maintaining an emotionally and physically balanced way of life. It encourages self responsibility and improved self esteem.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="BENEFITS OF POLARITY ENERGY THERAPY
+Improves mental, emotional, physical and spiritual wellbeing promotes proper flow of life-energy, or prana, throughout the body
+Reduces muscle tension and stress has a sacred quality; can put you in touch with self-understanding
+"          android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Application Process:
+1. The tip of two to three fingers moist in electricity and rubbed on body point about 10 second.
+2. Use Perfume Roller
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Types of External Application\n
+Bath ( hot and cold bath)\n
+Compress.. Hot and cold compress\n
+Body Pack\n
+Blanket bath
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textVdiew22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="       Vapour Bath… is useful in rheumatism and skin disease\n
+Eye wash… useful in conjunctivitis, iteaching in eyes , eyelids all types of eye diseases use Eye Wash and compress\n
+Gargles… in tonsillitis , pharangitits , Soar Throat.\n
+Inhalers and Spary…  Running nose , Asthma, Bronchitis ,Abdominal pain \n
+Lotion…. Acne , wrinkles on face ,fungal infection, ring worm,\n
+Oils …. Useful  for massage , pain relief in backache , cervical pain , all types joint pain  \n
+Ointments …. Useful in acute and chronic wounds, Acne , wrinkles on face ,fungal infection, ring worm,  \n
+Suppositories… useful in piles , hemorrhage, obstinate constipation . for preparing this type suppositories use olive oil as a base.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electricity.APP">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutApp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="APP"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+          android:text="It is called skin water. It acts as tonic upon the skin. It is used externally only. It is useful in sunburns, helps to freckles and wrinkles, pimples, acne, boils and carbuncles.
+
+•For local applications in skin diseases.
+•Rough and raged skin, acne, pimples, eczema or other types of dermatoses.
+•Acts upon cutaneous nerves including glandular and cellular structures of skin.
+•It becomes smooth, velvety and soft acting fluid. So us as cosmetic purposes for the removal of scar marks, blemishes, deep pigmentation of skin and hyperidrosis.
+•It is use internally in skin diseases as well as in glandular in durations and complications of internal or blunt injuries
+"
+
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="1] PINUS NIGRA-20-Parts-Scotch Pine-\n
+Stiffness, gouty pains in all joints, especially finger joints, cramps in calves. Rheumatic, bronchial and
+urticarious symptoms, expectorant, inhalation for bronchitis, for hair growth. Nettle rash, itching all over, nose itches.\n
+
+2] SCROFULARIA NODOSA-20-Parts-Figwort-\n
+ A powerful medicine whenever enlarge glands are present. HODGKINS DISEASE [A cancer of lymphatic
+System ,which is part of our immune system]. A valuable skin remedy. Has a specific affinity for the breast, very useful in breast tumors. Eczema of ears Pruritis . Lupoid ulceration of pharynx. Scrofulous swelling, painful hemorrhoids, Tubercular testis, Epithelioma, Nodositis of the breasts, Pain in all flexor muscles.
+Blood cleansing tonic, Diuretic, Poultice apply for Gangrene, swollen lymph glands Psoriasis, Boils ,Small
+wounds.\n
+
+3] VITIS VINIFERA-20-Parts-Grape/Wine\n
+Anti-inflammatory, astringent, throat infection, powerful antioxidant, laxative, stomatic, diuretic, varicose
+veins, hemorrhoids.\n
+
+4] ARNICA MONTANA-10-Parts-\n
+Produces conditions upon the system quite similar to those resulting from injuries, falls blows, contusions,
+septic conditions, prophylactic of pus infection. After traumatic injuries, over use of any organ, strains. Arnica is deposited to cerebral congestion. Acts best in plethoric , feebly in debilitated with impoverished blood, cardiac dropsy with dyspnea. A muscular tonic. Limbs and body ache as if beaten. Joints as if sprained. Marked effect on blood. Affects the venous system inducing stasis. hemorrhages. Relaxed blood vesicles, black and blue spots. Tendency to hemorrhage and low fever states tendency to tissue degeneration. Abscesses that do not mature. Rheumatism of muscular and tendinous tissue, especially of back and shoulders. Aversion to tobacco. Thrombosis, hematocele.
+5] TRAXACUM LEONTODON-10-Parts-Dandelion-\n
+For gastric headaches, bilious attacks, cancer of bladder, flatulence, loss of appetite, liver enlargement,
+neuralgia of knee, specially acts on digestive system.\n
+
+6] VINCA MINOR-10-Parts-Lesser Periwinkle-\n
+Reduce internal bleeding, menstrual bleeding, nose bleeding, high blood pressure, ulcer and sore throat,
+piles and small wound, intestinal pain and swelling, toothache, water retention.\n
+
+7] SMILAX MEDICA-5-Parts-Sarsaparilla-\n
+Rheumatism, Arthritis, Renal calculi, Nephritis, Influenza, Lack off appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, kidney diseases.\n
+
+8] EUONYMUS EUROPAEUS-5-Parts-Spindle Tree-\n
+The fresh leaves, and the dried fruit and seeds, are used externally to treat scabies, lice, ticks and other skin parasites. It acts on liver, cholagogue, laxative, stimulant and tonic.\n
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

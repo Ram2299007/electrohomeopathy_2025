@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scrofoloso.s11">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layouts11">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="scrofulous S-11"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+ android:text="•Lymphatic or metabolic and digestive remedy. \n
+•S11 is a bet remedy for pneumo-gastric nerve. \n
+•Cerebellum and hypothalamus. \n
+•In case of vomiting first drug of choice is S11. Anti emetic remedy. \n
+•Sea sickness, vomiting during travelling, morning sickness. \n
+Pregnancy sickness, Nausea due to migraine, Dizziness \n
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="1]HYDRASTIS CANADENSIS- 30-Golden Seal/Spoon Worts-
+            Acts especially on mucus membrane.The catarrh may be every where-throat,stomach,uterus,urethra-it is always characterized by this pecullar mucus discharge.Hydrastis is especially active in old,easily yired people.Weak muscular power,poor digestion and obstinate constipation,lumbago.It’s action on liver is marked.Cancer and cancerus state before ulceration . "
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+android:text="  2] MATRICARIA CHAMOMILLA-30-Parts-Chamomile-\n
+ Soothe Nervous stress,Digestive problems,Ulcerated or inflammed bowel.Excess intake,weak stomach muscles.It is also used as a mild laxative and is anti-inflammatory,Bactericidal.
+"          android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+       android:text="3] MELISA OFFICINALIS-30-Parts-Lemon balm-\n
+Antispasmodic, antiseptic, sedative, carminative, stress and depress, insomnia, menstrual pains, anti-fungal, anti-viral, cold sores, high cholesterol, genital herpes, indigestion.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="4]COCHLERIA OFFICINALIS-10-Parts-Water Cress/Scruvy Grass-\n
+            Antiscrobutic, Appetizer and digestive, Diuretic and Depurgative, Rubefacient i.e .attract the blood towards the skin, thus reducing the congestion of internal organs, blood purifier ,skin irritation.  \n
+ 5] SMILAX MEDICA-10-Parts-Sarsaparilla-\n
+ Rheumatism,Arthritis,Renal calculi,Nephritis,Influenza,Lack off appetite,Poor digestion,Acne and Eczema.Psoriasis and skin diseases,Kidney diseases."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+android:text="6] NASTURTIUM OFFICINALIS-5-Parts-Water cress-\n
+ 	 Used for UTI ,swollen airways,Cough and Bronchitis,Diuretic,Expectorant,Prevent Scurvy,cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS.It’s high content of VITAMIN C makes it is a remedy i.e.perticurlarly valuable for chronic illness.\n
+7]  SCROFULARIA NODOSA-5-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present.HODGKINS DISEASE [A cancer of lymphatic system,which is part of our immune system]. A valuable skin remedy.Has a specific affinity for the breast,very useful in breast tumours.Eczema of ears Pruritis vagine.Lupoid ulceration of pharynx. Scrofolus swelling, painfull hemorrhoids,Tubercular testis,Epithelioma,Nodositis of the breasts,Pain in all flexor muscles.  Blood cleansing tonic,Diuretic, Polutice apply for Gangrene, swollen lymph glands Psoriasis,Boils ,Small wounds.\n
+8] TUSSILAGO FARFARA-5-Parts-Colts foot-\n
+           For Bronchitis, Asthama,Whhoping cough,Lung cancer,Emphysema,Inflammation,Rheumatism,Swelling Water retaintion and Tuberculosis.Leaves reach in VITAMIN C and ZINK.\n
+9] VERONICA OFFICINALIS-5-Parts-Speed well-\n
+            Used as a tonic,to cause sweating,to purify blood and to increase metabolism,Invigorating,Appetizer and Digestive,Expectorant,Diuretic,Depurgative,Pharyngitis,Bronchitis, Catarrh, Cough. \n
+10] LOBELIA INFLATA-5-Parts-\n
+	Antiemetic, asthamatic,bronchitis, whooping cough, and shortness ofbreath,  diaphoretic, expectorant, sedative. \n
+"          android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

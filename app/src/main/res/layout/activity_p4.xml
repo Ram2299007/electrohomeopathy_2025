@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patroales.P4">
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutp4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="PETTORALE-4"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+    android:text="This remedy is used for asthma, bronchial dilatation, chronic bronchial catarrh, croup, laryngeal pthisis, mucus in larynx, causing constant expectoration, chronic pulmonary catarrh, sharp pains in chest.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+     android:text="•Reparatory, pectoral remedies.
+•P4 acts up on Pheumogastric nerve, vogues nerve, arise from hypothalamus of brain.
+•P4 corresponds to the influence of S10.
+•Disease of lungs, disorders of stomach, or nerves system,
+•P4 also use in cough due to nervous or psychic disorders as in depression, fear or anxiety etc.
+•Whooping cough, dry spasmodic cough.
+It also works very well for older people. Hay fever,
+Cough with night sweats chest pain with difficult breathing
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="1] ARNICA MONTANA-30-Parts-\n
+Produces conditions upon the system quite similar to those resulting from injuries, falls blows, contusions, septic conditions, prophylactic of pus infection. After traumatic injuries, over use of any organ, strains. Arnica is deposited to cerebral congestion. Acts best in plethoric , feebly in debilitated with impoverished blood, cardiac dropsy with dyspnoea. A muscular tonic. Limbs and bodyache as if beaten. Joints as if sprained. Marked effect on blood. Affects the venous system inducing stasis. Echymosis and hemorrhages. Relaxed blood vesicles, black and blue spots. Tendency to hemorrhage and low fever states tendency to tissue degeneration. Abscesses that do not mature. Rheumatism of muscular and tendinous tissue, especially of back and shoulders. Aversion to tobacco.Thrombosis , hematocele.\n
+
+2] POLYGALA AMARA-25-Parts-Bitter Milk Wort-\n
+Anti-tussive, acts on respiratory system, including chronic bronchitis, bronchial asthma, and convulsive cough, whooping cough.\n
+
+3] PHELANDRIUM AQUATICAM-20-Parts-Water Dropwort-\n
+The respiratory symptoms are most important, and have been frequently verified clinically. A very good remedy for the offensive expectoration and cough in pthisis, bronchitis and emphysema. Tuberculosis, affecting generally in middle lobes, haemoptysis, hectic and colliquative diarrhea.\n
+
+4] ADIANTHUM CAPIL VENERIS-15-Parts-Maiden Hair-\n
+For dry cough, caused by irritation of upper airways, acute and chronic bronchitis, uterine antispasmodic, dysmenorrhoea, strengthens hair.\n
+
+5] ALLIUM CEPA-10-Parts-Onion-\n
+Coryza, with acrid nasal discharge, antibiotic against skin infection, mycolitic, and anti-inflammatory for expectorant and the pectoral, high BP, obesity, rheumatism, kidney diseases, chronic hepatitis, fatty degeneration of liver, stimulate hair grow, acne, sooths and makes skin more beautiful.\n
+
+6] IPECACUANHA UROGOGA-10-Parts-Ipecac-root-\n
+The chief action is on the ramifications of the pneumogastric nerve, producing spasmodic irritation in the chest and stomach. Use for bronchitis associated with croup in children, a severe kind of diarrhea and cancer. Especially indicated in fat children and adults, who are feeble and catch cold in relaxing atmosphere; warm, moist weather. Spasmodic affections.\n
+
+
+7] EUCALYPTUS GLOBULUS-10-Parts-Blue Gum Tree-\n
+It is a powerful antiseptic and destructive to low forms of life, a stimulating expectorant and an efficient diaphoretic. Atonic dyspepsia, gastric and intestinal catarrh. A remedy with marked effects on catarrhal processes, malaria and intestinal disturbances. Influenza, producing dieresis and great increase of urea. Hemorrhages internally and locally, typhoid, symptoms of exhaustion and toxemia. Conditions of the mucous surfaces of the air
+passages, genitor urinary organs, and GI tract. A gastro-intestinal irritant with pain in stomach.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="2]HYDRASTIS CANADENSIS-10-Golden Seal/Spoon Worts-\n
+            Acts specially on mucus membrane. The catarrh may be ever where-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lumbago. It’s action on liver is marked. Cancer and cancerous state before ulceration, when pain is in principle symptoms. Goiter of  puberty and pregnancy."
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="3] SCROFULARIA NODOSA-10-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present. HODGKINS DISEASE [A cancer of lymphatic system, which is part of our immune system]. A valuable skin remedy. Has a specific affinity for the breast, very useful in breast tumors. Eczema of ears, Pruritis vagina. Lupoid ulceration of pharynx. Scrofulous swelling, painful hemorrhoids, Tubercular testis, Epithelioma, multiple nodular swelling in the breasts, Pain in all flexor muscles.  Blood cleansing tonic, Diuretic, Poultice apply for Gangrene, swollen lymph glands Psoriasis, Boils, Small wounds.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="4] NASTURTIUM OFFICINALIS-10-Parts-Water cress-
+           Used for UTI , swollen airways, Cough and Bronchitis, Diuretic, Expectorant ,Prevent Scurvy ,cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS. It’s high content of VITAMIN C makes it is a remedy i.e., particularly valuable for chronic illness.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+            android:text="5] TUSSILAGO FARFARA-10-Parts-Colt’s foot-\n
+           For Bronchitis, Asthma, whooping cough, Lung cancer, Emphysema, Inflammation, Rheumatism, Swelling Water retention and Tuberculosis. Leaves reach in VITAMIN C and ZINK.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="6] SMILAX MEDICA-10-Parts-Sarsaparilla-
+            Rheumatism, Arthritis, Renal calculi, Nephritis, Influenza, Lack of appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, kidney diseases."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="7] VERONICA OFFICINALIS-10-Parts-Speed well-\n
+            Used as a tonic, to cause sweating, to purify blood and to increase metabolism, Invigorating, Appetizer and Digestive, Expectorant, Diuretic, Depurative, Pharyngitis, Bronchitis, Catarrh, Cough.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="8] MATRICARIA CHAMOMILLA-10-Parts-Chamomile-\n
+            Soothe Nervous stress, Digestive problems, Ulcerated or inflamed bowel. Excess intake, weak stomach muscles. It is also used as a mild laxative and is anti-inflammatory, Bactericidal.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textViewd19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="9] NUX VOMICA-10-Parts-Vomitting nut-
+	Digestive tonic, menstrual problems, paralysis, rabies, erectile dysfunction [impotence], used in rat poison.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

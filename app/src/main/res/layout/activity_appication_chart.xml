@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".External_Appication.AppicationChart"
+    tools:ignore="SpeakableTextPresentCheck">
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutAC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/one" />
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="15dp"
+
+            android:src="@drawable/nine" />
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/twentyone" />
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-19dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:src="@drawable/thirty" />
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-15dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/fourtyone" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

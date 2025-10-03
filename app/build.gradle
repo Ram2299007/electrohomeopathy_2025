@@ -1,0 +1,146 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.mgUnicorn.eh'
+    signingConfigs {
+        debug {
+            storeFile file('/Users/ramlohar/AndroidStudioProjects/Electrohomeopathy-main/sept2022KeystoreEletroH')
+            storePassword 'Ram2299007'
+            keyPassword 'Ram2299007'
+            keyAlias 'key0'
+        }
+        release {
+            storeFile file('/Users/ramlohar/AndroidStudioProjects/Electrohomeopathy-main/sept2022KeystoreEletroH')
+            storePassword 'Ram2299007'
+            keyAlias 'key0'
+            keyPassword 'Ram2299007'
+        }
+    }
+    compileSdkVersion 34
+    buildToolsVersion "34.0.0"
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "com.mgUnicorn.eh"
+        minSdkVersion 26
+        targetSdkVersion 34
+        versionCode 37
+        versionName "37"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            debuggable true
+            versionNameSuffix "-debug"
+        }
+        release {
+            minifyEnabled false
+            shrinkResources = false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    packagingOptions {
+        exclude 'com/itextpdf/io/font/cmap_info.txt'
+        exclude 'com/itextpdf/io/font/cmap/*'
+        exclude 'META-INF/AL2.0'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/*.kotlin_module'
+    }
+
+    buildFeatures {
+
+        viewBinding true
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+}
+
+dependencies {
+
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    // PDF viewer library - temporarily commented out due to dependency issues
+    // implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    // implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+
+    implementation 'androidx.browser:browser:1.7.0'
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+
+    //pdf Lib
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'com.karumi:dexter:6.2.3'
+
+    //Glide librarry
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+
+    implementation 'com.orhanobut:dialogplus:1.11@aar'
+
+
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.firebaseui:firebase-ui-database:8.0.2'
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'com.google.gms:google-services:4.4.0'
+
+
+
+
+}
+
+
+
+
+
+
+

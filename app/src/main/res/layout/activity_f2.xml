@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Febrifugo.F2">
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutf2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="FEBRIFUGO-2"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+     android:text="This remedy is for nervous system. It acts on peripheral nervous system, mainly for external use in liver, spleen. It is used as analgesic, antipyretic, anti-inflammatory. The effect of F2 is firstly deep and powerful on whole nervous system . Some time it is used internally in obstinate fevers such as typhus when they resist the action of F1. It is effective skin itching. It cures fever, chills, epileptic fits, diphtheria, neuralgia.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="•Connective tissue remedies.
+•F2 most commonly similar as F1.
+•F1 is used internal, but F2 is used external application.
+•F2 is used when F1 fails to cure the disease or its symptoms.
+Nerve pain, Muscle Weakness, Spleen Complication, Rashes itching.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+    android:text="1] BERBIRIS VULGARIS-2O-Parts-Berberry-\n
+             Acts on the venous system. Producing pelvic engorgement, Hepatic and  Rheumatic affections particularly with urinary. Hemorrhoidal and Menstrual complaints, Old gouty constitutions. Pain in region of kidney is mostly marked. Gall stone, Vesical catarrh. It was also marked action on Liver, promoting flow of bile.	\n
+2] SCOLOPENDRIUM VULGARE-15-Parts-\n
+	Cholagogue, expectorant, used for face pack, for soothing of skin.\n
+3] CINCHONA SUCCIRUBA-10-Parts-\n
+	Cinchona is used for fever, hair loss, promoting the release of gastric juice, and treating bloating, fullness, and other stomach problems. It is also used for blood vessel disorders including hemorrhoids, varicose veins, and leg cramps.\n
+4] CINCHONA CALISAYA-10-Parts-\n
+	Cinchona is used for fever, hair loss, promoting the release of gastric juice, and treating bloating, fullness, and other stomach problems. It is also used for blood vessel disorders including hemorrhoids, varicose veins, and leg cramps.\n
+5] AESCULUS HIPPOCASTANUM-20-Parts-Blood root-\n
+	The action of this drug is most marked on the lower bowel, producing engorged hemorrhoidal veins, with characteristic backache, with actual constipation. Much pain but little bleeding. Varicose veins general of purple color, venous stasis, ever thing is slowed down, digestion, heart, bowels, etc. congestion of the liver and portal system, with \n\nconstipation. The backaches and gives out and unfits the patient for business. Flying pains all over. Fullness in various parts, dry, swollen mucus membrane. Compresses use for varicose veins in legs. Thrombophlebitis, prostate.\n
+
+6] CETRARIA ISLANDICA-5-Parts-Island moss-\n
+	It is used as expectorant, pectoral, anti-tussive, antitubercular, antiemetic during pregnancy. For treating irritation of mouth and throat, loss of appetite, common cold, dry cough, bronchitis, kidney and bladder complaint, and the tendency towards infection. Externally, it is used in the treatment of boils, vaginal discharge and impetigo. \n
+7] ERYTHRAEA CENTAURIUM-5-Parts-\n
+	It acts on digestive system, such as bloating, dyspepsia, and flatulence, anorexia [loss of appetite]. It is also acts on liver and kidneys to purify the blood. Also used in fevers.	 \n
+8] SALIX ALBA-5-Parts-\n
+	Stem- used as pain killer and reduce fever. Bark extract for sore throat gargles, heart burn, food poisoning. Leaves- for nervous insomnia and are added in bath to ease rheumatism. Root-to treat leukemia and restore bones.\n
+9] SAMBUCUS NIGRA-5-Parts-\n
+	For cold, hay fever, sore throat, arthritis, epilepsy, mild laxative, treat fracture and muscle spasm, antioxidant.	\n
+"        android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

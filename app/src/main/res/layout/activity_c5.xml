@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c5">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCEROSO-5"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="The most powerful of all the Canceroso. Its action, which is deeper and more general than that of any of others, resembles that of a mixture of Angiotico, Canceroso and Scrofulous. It is anti-cancerous and anti-syphilitic. Abscess, acidity, acne, asthma, cancer in all external parts-lips, breast, eye skin, cancer of womb. Capillary system diseases, cataract, chlorosis, convulsions, uterine cramps, deafness diarrhea, dropsy, dysmenorrhea, dyspepsia, gout, hair fall, hysteria, paralysis. It cures hepatic pains, fatty liver, cholecystitis, epilepsy, gastralgia, and other gastric affections, glandular induration or inflammation, gonorrhea, gout, herpes.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="Tissue / glandular or anti degenerative remedies.
+•Similar as S5, both are used for diseases of skin, glandular structures as liver, gall bladder, pancreas.
+•Externally both remedies are use lotion, bath, ointment.
+•Carcinoma of breast, liver, gall bladder, prostate, intestines with other remedies.
+•All types of nodes or tumors may be of benign or malignant, fistula, carbuncle, degenerations, gangrenous ulcers and necrosis.
+•Varicosity of vein, varicose ulcers, hemorrhoids C5 with A2 in lower dill.
+•All types of obstructions may be of intestinal or respiratory. In intestinal C5 + S10 + C10 + S Lass and GE, in respiratory obstructions C5 + P1 and GE.
+•Cholecystitis, cholelithiasis, hepatitis, hepatic abscess, diabetes, pancreatitis, proctatitisC5 + C10 with other specific remedies.
+•Gout, rheumatism, arthritis, or other joint or muscular diseases C5 is first drug, with S5 + Linf-2 + F1 and BE or WE.
+•In joint or muscular diseases as well as in neuromuscular disorders C5 is used externally in the form of ointment or oil, with S5 + F2 and WE or RE.
+•With above remedies C5 stops deposition in the joint and muscles.
+•Lymph purification, maintains the structural and functional activities of lymph glands,
+•C5 maintains the digestive activities, with the maintenance of hepatic, pancreatic, and gall bladder secretions.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="
+1] CONIUM MACULATUM-50-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+2] RHUS TOXICODENDRON-40-Parts-Poison ivy-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc., producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+
+3] PHYTOLACA DECANDRA-20-Parts-Poke root-\n
+Anti-inflammatory for swollen throat, purgative, narcotic, expel catarrh. Glandular remedy, glandular swelling with heat and inflammation. Powerful effect on fibrous and osseous tissue, chronic rheumatism, decrease of weight.\n
+
+4] PIMPENELLA SAXIFRAGA-5-Parts-\n
+Used for upper respiratory tract infections, urinary tract infections, diuretic, kidney and bladder stone, calms nervous excitation, to helps digestion.\n
+
+5] VINCETOXICUM OFFICINALIS-5-Parts-Sage-\n
+Antioxidant, antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin, induce vomiting, purgative, antitumor, snake bite etc.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+
+</ScrollView>

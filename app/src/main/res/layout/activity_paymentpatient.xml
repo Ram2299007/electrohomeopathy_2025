@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paymentpatientActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="23dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PATIENT PAYMENT"
+            android:textColor="@color/pink_dark2"
+            android:textSize="18dp"
+            android:layout_marginTop="23dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/txtTotalPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Total Payment"
+            android:textColor="#651FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTotalPayment"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Enter Total Payment"
+
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textStyle=
+
+                "bold|italic" />
+
+        <TextView
+            android:id="@+id/txtPaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Paid "
+            android:textColor="#651FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPaid"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Enter Paid"
+
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textStyle=
+
+                "bold|italic" />
+
+        <TextView
+            android:id="@+id/txtUnpaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Unpaid"
+            android:textColor="#651FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUnpaid"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Enter Unpaid"
+
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textStyle=
+
+                "bold|italic" />
+
+
+        <Button
+            android:id="@+id/btnPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Upload"
+            app:cornerRadius="5dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vermifugo.Verm1">
+
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutverm1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="VERMIFUGO-1"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+   android:text="Specific against  worms of all kinds, also useful in many nervous affections. Its nervine property resembles those of febrifugo and canceroso. It is valuable in affections of mucus membrane.Bronchitis,  ascarides, cramp in stomach, diarrhea [through worms], epilepsy, flatulence, whooping cough, hypochondriasis, hysteria, indigestion, insomnia [through worms], intestinal worms, lumbricoides, ,melancholia, nausea [through worms], thread worms, taenia, tricocephalus, worm fever.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+    android:text="•Anti-helminthic/anti-biotic and anti-allergicr emedies.
+•Specific for all types of intestinal worms.
+•Best worm ejector, evacuates worms in both alive and dead.
+•This remedy kills or expels the worms from intestine.
+•Preventive remedy for worm infestations, or other common intestinal infections. Epidemic cholera, gastro-enteritis.
+•Antiseptic and antibiotic in various infections conditions especially gastro intestinal tract, or skin surface.
+•Gastro-intestinal disorders, colon tonic, Acut colitis. Acute Diarrhoea.
+•It is best remedy for degenerative wounds, ulcers,fistula.
+.Detoxification and Liver Cleanser
+•Toning the muscle of intestines
+•Strong dill stimulate the intestinal function and lower dill use for constipation
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="1] ALLIUM SATIVUM-30-Parts-Garlic-\n
+	Acts directly on intestinal mucus membrane, increasing peristalsis. Colitis with pathological flora. Has vasodilatory properties. Arterial hypotension beings usually in 30 to 45 minutes after 20 to 40 drops dose of the tincture. Used for hypertension, hypoglycemic, antibiotic, antiseptic, diarrhea, gastroenteritis, colitis, detoxification. Prevent malignant tumor, cystitis, pylonephritis, expectorant, anti-asthmatic, dyspepsia which cause flatulence, corn remover, specially antibiotic for salmonella, e-coli, shigella, staphylococcus. Weight is gained and sleep becomes regular,  haemoptysis.\n
+2] DICTAMNUS ALBUS-20-Parts-Burning bush-\n
+	It is used for digestive tract disorders. Cramps in stomach, vermifuge, diuretic and genital tract disorders. \n
+3] RUTA GRAVEOLENCE-20-Parts-Rue-bitterwort-\n
+	Acts upon the periosteum and cartilages, eye and uterus. Complaints from straining flexor tendons especially. Tendency to the formation of deposits in the periosteum, tendons, and about joints, especially wrist. Overstrain of ocular muscles. All parts of the body are painful, as if bruised. Sprains, jaundice, feeling of intense lassitude, weakness and despair, injured bruised bones. It has been also used as stiff neck dizziness, headache, tightness in the stomach, inner ear problems, intestinal worms.\n
+4] THYMUS SERPHYLLUM-20-Parts-\n
+	It is used as antispasmodic,antiseptic, expectorant, diuretic, heals sore skin, to reduce indigestion, flatulence, stimulant, sedative.\n
+5] IMPERATORIA OSTRUTHIUM-20-Parts-\n
+	Antispasmodic, carminative, G I tract disorders, skin, respiratory tract infections, fever, flue, colds, cardiovascular system.\n
+6] EUPHORBIUM OFFICINALIS-5-Parts-\n
+	It has strong purgative and mild laxative.\n
+7] CHENOPODIUM ANTHELMINTICUM-5-Parts-\n
+	Characteristic pain in scapula, symptoms of apoplexy, right hemiplegia, and aphasia. Sudden vertigo, meniere’s disease, affections of auditory nerves. Oil of chenopodium for hookworm and round worm.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+      
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

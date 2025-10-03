@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CancerAndEh">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutCAEh">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="EH and CANCER Treatment
+"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="Each cancer patient i give from 1:49 ratio
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+ android:text="C5GE…. 10drop from D4 in 100ml and take 5 drops 2 hourly
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewd11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+            android:text="L1Ven1…from 10thdilution .10 drop in 100ml and take 20 drops TDS
+
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+ <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+   android:text="F1WE… from 10thdilution .10 drop in 100ml and take 20 drops TDS \nA2 P2 1st.. Dilution 10 drops in 100ml 20 drop TDS
+"         android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+    android:text="Select organ remedy. .\nStructural remedy… C group
+          \nFunctional Remedy …. S group
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+            android:text="Select organ remedy. .\nStructural remedy… C group
+       \nFunctional Remedy …. S group
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+            android:text="From 10thdilution .10 drop in 100ml and take 20 drops TDS  "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+           android:text="C5F2GE… application 10drop each in 100ml
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+           android:text=" S1…BM…1st dilution 20 drop 100ml..20 drops TDS
+
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+    android:text="S10Verm1..AM 1st dilution 20 drop 100ml..20 drops TDS
+\nSlass 1st dilution 20 drops at night with luck warm water \nSlass 1g. 1st dilution in 1lit.and take it sip by sip in whole day
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="S10Verm1..AM 1st dilution 20 drop 100ml..20 drops TDS
+            \nSlass 1st dilution 20 drops at night with luck warm water \nSlass 1g. 1st dilution in 1lit.and take it sip by sip in whole day
+"           android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/newone"
+            />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="410dp"
+            android:layout_marginTop="-40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/newtwo"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+    android:text="This type of treatment I have give to my patient. This is my personal opinion. You choice remedy according condition of your patient…
+ if u want to any other information."        android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="DR.KUNDAN MADNE \nJYOTIRLING ADVANCE ELECTROHOMEO CARE CENTER,\nADDDRESS :-CHIKURDE TAL,WALWA, DIST:-SANGLI\nMOB NO: 9011951503."
+            android:textColor="#6200EA"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

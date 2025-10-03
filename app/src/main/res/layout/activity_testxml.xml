@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:elevation="8dp"
+    android:layout_centerInParent="true"
+    app:cardCornerRadius="8dp"
+  android:layout_centerVertical="true"
+    android:layout_marginStart="8dp"
+    android:id="@+id/pdf_cardview">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="ed" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="buttonCreatePDF"
+            android:text="pdf" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

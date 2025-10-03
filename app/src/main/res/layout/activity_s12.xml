@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scrofoloso.s12">
+
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layouts12">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="S-12"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="It is used for all types of eye diseases and optic nerve problems. "
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="•Lymphatic or metabolic and digestive remedy.
+•S12 is influenced on eyes, and its different parts.
+•Disease of cornea, conjunctive, iris and lens.
+•Cataract, glaucoma.
+•For senile cataract S12 use with C1 or C5 and A3.
+•Cataract in gouty patients
+•Bronchia cough.
+Helps to improve eyesight, Eye disorders due diabetes and any other major illness , Dizziness or Migraine due to weak eyesight.
+Lubrication in all body parts.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="1]COCHLERIA OFFICINALIS-20-Parts-Water Cress/Scruvy Grass-\n
+            Antiscrobutic, Appetizer and digestive, Diuretic and Depurgative, Rubefacient i.e .attract the blood towards the skin, thus reducing the congestion of internal organs, blood purifier ,skin irritation.
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+          android:text="2]  SCROFULARIA NODOSA-20-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present.HODGKINS DISEASE [A cancer of lymphatic system,which is part of our immune system]. A valuable skin remedy.Has a specific affinity for the breast,very useful in breast tumours.Eczema of ears Pruritis vagine.Lupoid ulceration of pharynx. Scrofolus swelling, painfull hemorrhoids,Tubercular testis,Epithelioma,Nodositis of the breasts,Pain in all flexor muscles.  Blood cleansing tonic,Diuretic, Polutice apply for Gangrene, swollen lymph glands Psoriasis,Boils ,Small wounds.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="3] NASTURTIUM OFFICINALIS-20-Parts-Water cress-\n
+ 	 Used for UTI ,swollen airways,Cough and Bronchitis,Diuretic,Expectorant,Prevent Scurvy,cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS.It’s high content of VITAMIN C makes it is a remedy i.e.perticurlarly valuable for chronic illness.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="4] EUPHRASIA OFIICINALIS-20-Parts-\n
+	Manifests itself in inflaming the conjunctival membrane especially, producing profuse lachrimation. Catarrhal affections of mucus membrane especially of eyes and nose. General "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+   android:text="eye tonic, treating strain and infection. Antiseptic astringent, anti-inflammatory, catarrh reducing properties, ease the irritated eyes and running nose,Hay fever and sinusitis
+"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+         android:text="5] ATROPA BELLADONA-10-Parts-\n
+	Beladona acts upon every part of the nervous system, producing active congestion, furious excitement, prevented special sense, twitching, convulsion and pains. It has marked action on skin and glands. Belladonna always associated with, hot, red skin, flushed face, glaring eyes thrombing carotids, mental state, restless sleep, convulsive movements, dryness of mouth and throat with aversion to water, neuralgic pains that come and go suddenly. Great children’s remedy. Mydriatic – produces dilatation of pupils.\n
+ 6] MATRICARIA CHAMOMILLA-30-Parts-Chamomile-\n
+ Soothe Nervous stress,Digestive problems,Ulcerated or inflammed bowel.Excess intake,weak stomach muscles.It is also used as a mild laxative and is anti-inflammatory,Bactericidal.\n
+7]HYDRASTIS CANADENSIS- 5-Golden Seal/Spoon Worts-\n
+            Acts especially on mucus membrane.The catarrh may be every where-throat,stomach,uterus,urethra-it is always characterized by this pecullar mucus discharge.Hydrastis is especially active in old,easily yired people.Weak muscular power,poor digestion and obstinate constipation,lumbago.It’s action on liver is marked.Cancer and cancerus state before ulceration .\n
+8]HYDRASTIS CANADENSIS- 30-Golden Seal/Spoon Worts-\n
+            Acts especially on mucus membrane.The catarrh may be every where-throat,stomach,uterus,urethra-it is always characterized by this pecullar mucus discharge.Hydrastis is especially active in old,easily yired people.Weak muscular power,poor digestion and obstinate constipation,lumbago.It’s action on liver is marked.Cancer and cancerus state before ulceration . \n
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+
+</ScrollView>

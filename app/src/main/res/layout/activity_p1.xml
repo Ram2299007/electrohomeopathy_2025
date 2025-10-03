@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patroales.P1">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutp1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="PETTORALE-1"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+           android:text="It is mainly acts on respiratory system. For asthmatic pains, bronchitis, catarrhal cough, bronchial irritation.Feeling of weight and pressure on the chest in breathing, laryngitis, whooping cough, pneumonia, pthisis, pleurisy, sore throat, throat inflammation, tonsillitis, tracheal irritation, inflammation of vocal cord, loss of voice."
+
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="
+•Reparatory, pectoral remedies.
+•P1 for upper respiratory tract, larynx, trachea, and bronchioles also alveoli.
+•Best remedy for cough, cold, coryza and catarrh of nose and throat.
+•Bronchitis, laryngitis, dyspnoea, and dysphagiadue to sore throat.
+•Nasal congestion or inflammation
+•Allergic bronchitis or asthma, dry cough, sore throat.
+Pneumonia, whooping cough.
+•Bronchial tumors or extra growths upper respiratory tract
+Lung cancer and chronic inflammation of lungs
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+      android:text="1] ALLIUM CEPA-20-Parts-Onion-\n
+Coryza, with acrid nasal discharge, antibiotic against skin infection, mycolitic, and anti-inflammatory for expectorant and the pectoral, high BP, obesity, rheumatism, kidney diseases, chronic hepatitis, fatty degeneration of liver, stimulate hair grow, acne, sooths and makes skin more beautiful.\n
+
+2] IPECACUANHA UROGOGA-20-Parts-Ipecac-rootThe\n
+chief action is on the ramifications of the pneumogastric nerve, producing spasmodic irritation in thechest and stomach. Use for bronchitis associated with croup in children, a severe kind of diarrhea and cancer.Especially indicated in fat children and adults, who are feeble and catch cold in relaxing atmosphere; warm, moist
+weather. Spasmodic affections.\n
+
+3] POLYGALA AMARA-20-Parts-Bitter Milk Wort-\n
+Anti-tussive, acts on respiratory system, including chronic bronchitis, bronchial asthma, and convulsive cough, whooping cough.\n
+
+4] PHELANDRIUM AQUATICAM-20-Parts-Water Dropwort-\n
+The respiratory symptoms are most important, and have been frequently verified clinically. A very good remedy for the offensive expectoration and cough in pthisis, bronchitis and emphysema. Tuberculosis, affecting generally in middle lobes, haemoptysis, hectic and colliquative diarrhea.
+
+5] ADIANTHUM CAPIL VENERIS-10-Parts-Maiden Hair-\n
+For dry cough, caused by irritation of upper airways, acute and chronic bronchitis, uterine antispasmodic, dysmenorrhoea, strengthens hair.\n
+
+6] EUCALYPTUS GLOBULUS-10-Parts-Blue Gum Tree-\n
+It is a powerful antiseptic and destructive to low forms of life, a stimulating expectorant and an efficient diaphoretic. Atonic dyspepsia, gastric and intestinal catarrh. A remedy with marked effects on catarrhal processes, malaria and intestinal disturbances. Influenza, producing dieresis and great increase of urea. Haemorrhages internally and locally, typhoid, symptoms of exhaustion and toxaemia. Conditions of the mucous surfaces of the air passages, genitor urinary organs, and GI tract. A gastro-intestinal irritant with pain in stomach.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

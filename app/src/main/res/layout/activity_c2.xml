@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c2">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCEROSO-2"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="It has a gentler and extensive, but deeper action than C1. It is especially useful in dropsy. It is useful in bladder diseases, for cystitis, liver, gallbladder, mucus and serous membrane of intestine, arthritic affections, ascites, ascites with general dropsy dependent upon organic affection of the stomach. Cancer of the lip, womb, carcinomatoses affections, curvature of spine, epilepsy, falling of the vagina and womb, glandular inflammation, gonorrhea, hepatitis, hydrocele, hydrocephalus, hydro pericarditis, hysteria, laryngitis, mastitis, mesenteric diseases, miscarriage.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+  android:text="•Tissue / glandular or anti degenerative remedies.
+•C2 for urinary bladder and entire urinary systems.
+•Urinary bladder including prostate, all type of urinary disorders.
+•Polyuria, dysuria, frequent desire for urination,.
+•Extra growths and its appendages.
+•C2 use in carcinoma, polyp and prostatic hypertrophy.
+•Acts on gastro intestinal tract, rectum and anus,.
+•Piles, rectal prolapse, dropsy, edema and bronchial catarrh.
+•Acts up on liver, gall bladder, pancreas and other glandular structures
+Cystitis, Oedema
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="1] CONIUM MACULATUM-10-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+2] VINCETOXICUM OFFICINALIS-10-Parts-Sage-\n
+Antioxidant, antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin, induce vomiting, purgative, antitumor, snake bite etc.\n
+
+3] EQUISETUM ARVENSE-20-Parts-Horsetail-\n
+It is used for urinary tract infection, the inability to control urination[incontinence], urine retention, kidney and bladder stones. Degenerative process of the skin, eczema, abscesses, infected wounds, conjunctive tissue, breast flaccidity, arthrosis, osteoporosis, bone breaking, arteriosclerosis, gout, oedema.\n
+
+4] PIMPENELLA SAXIFRAGA-20-Parts-\n
+Used for upper respiratory tract infections, urinary tract infections, diuretic, kidney and bladder stone, calms nervous excitation, to helps digestion.\n
+
+5] PETROSELIUM SATIVUM-20-PARTSPiles\n
+with much itching. Burning, tingling, from perineum throughout whole urethra, sudden urging to urinate, gonorrhea, intense biting, itching, deep in urethra, milky discharge, gastrointestinal disorders, constipation, diabetes, cough, asthma, and high blood pressure. Tonic for hair and skin, eyes. Rheumatism, tone uterine muscle after birth, sooth, sprain, and cuts.\n
+
+6] RHUS TOXICODENDRON-20-Parts-Poison ivy-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc., producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.chatsFragment"
+    android:background="@drawable/wallpaper"
+
+
+    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/appointment"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="5dp"
+
+
+        android:layout_marginRight="10dp"
+
+
+        android:background="@drawable/cardback2">
+
+        <ImageView
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:layout_above="@id/textmale"
+
+
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/appointmentnew">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textmale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal"
+            android:text="Appintment"
+            android:textAlignment="center"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/secondopinion"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/appointment"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/cardback2">
+
+            <ImageView
+                android:layout_width="170px"
+                android:layout_height="170px"
+                android:layout_above="@id/textfemale"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/opinion">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textfemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/raleway"
+                android:gravity="center_horizontal"
+                android:text="Second Opinion"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bmi"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/secondopinion"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="5dp"
+
+        android:layout_marginRight="10dp"
+        android:background="@drawable/cardback2">
+
+        <ImageView
+            android:layout_width="170px"
+            android:layout_height="170px"
+
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/bminew">
+
+        </ImageView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal"
+            android:text="Bmi"
+            android:textAlignment="center"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+
+        android:layout_height="130dp"
+        android:layout_below="@id/bmi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="5dp"
+
+        android:layout_marginRight="10dp"
+        android:background="@drawable/cardback2">
+
+        <ImageView
+            android:layout_width="170px"
+            android:layout_height="170px"
+
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/webnew">
+
+        </ImageView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal"
+            android:text="Web"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/opd"
+            android:layout_width="match_parent"
+
+            android:layout_height="130dp"
+            android:layout_below="@id/web"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="5dp"
+
+
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cardback2">
+
+            <ImageView
+                android:layout_width="170px"
+                android:layout_height="170px"
+
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/opd">
+
+            </ImageView>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/raleway"
+                android:gravity="center_horizontal"
+                android:text="OPD Registration"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pptFiles"
+            android:layout_width="match_parent"
+
+            android:layout_height="130dp"
+            android:layout_below="@id/opd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="5dp"
+
+
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cardback2">
+
+            <ImageView
+                android:layout_width="170px"
+                android:layout_height="170px"
+
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/presentation">
+
+            </ImageView>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/raleway"
+                android:gravity="center_horizontal"
+                android:text="PPT files"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/legalStatus"
+            android:layout_width="match_parent"
+
+            android:layout_height="130dp"
+            android:layout_below="@id/pptFiles"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+
+
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cardback2">
+
+            <ImageView
+                android:layout_width="170px"
+                android:layout_height="170px"
+
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/legal">
+
+            </ImageView>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/raleway"
+                android:gravity="center_horizontal"
+                android:text="Legal Status"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

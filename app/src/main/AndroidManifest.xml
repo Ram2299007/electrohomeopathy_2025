@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Electrohomeopathy"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:windowSoftInputMode="adjustPan">
+        <activity
+            android:name="com.mgUnicorn.eh.LegalActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.OpdRegistration"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.NewTestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.pptView"
+            android:exported="false"
+            android:label="PPT&apos;s" />
+        <activity
+            android:name="com.mgUnicorn.eh.AdvertiseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.signature"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.test2xml"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.zoomfordetails"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.zoomstorageadapter"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.zoomStorage"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.GooglePayment2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.MoneyPage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mgUnicorn.eh.PdfActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.showcasepaper2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.testxml"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.bmiactivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.BMI"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.AtoZ.A_Upload"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.AddDatatoFirebase.addDatatoFirebase"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.FirebaseDebugActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.secondPatientChat"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mgUnicorn.eh.firstPatientActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mgUnicorn.eh.AtoZ.A"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.AtoZDiseases"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Electricity.APP"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Electricity.WE"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Electricity.BE"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Electricity.GE"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Electricity.YE"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Electricity.RE"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Vermifugo.Verm2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Vermifugo.Verm1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Lynfatic.L1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Venorica.Ven1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Febrifugo.F2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Febrifugo.F1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Patroales.P4"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Patroales.P3"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Patroales.P2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Patroales.P1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Angitico.A3"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Angitico.A2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Angitico.A1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c17"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c15"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c13"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c10"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c6"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c5"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c4"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c3"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.conceroso.c1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.sl"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s12"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s11"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s10"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s6"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s5"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s3"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s2"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Scrofoloso.s1"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.viewPdfCompony"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.electrohomeopathy"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.SingleRowDesign"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.CancerAndEh"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.External_Appication.ImagePhotoOfExternalAppication"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.External_Appication.PointDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.External_Appication.AppicationChart"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.External_Appication.LOP"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.ExternalApplication"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.Adapter.TypesOfDilution"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.petroales"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.electricity"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.vermoifugo"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.lympatic"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.veronica"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.febrifugo"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.Angitico"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.Conceroso"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.EhRemedy.Scofoloso"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.SpeOfAge.EhRemedy"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.SpeOfAge.Count"
+            android:exported="false" />
+        <activity
+            android:name="com.mgUnicorn.eh.TemparamentMaterial"
+            android:exported="false" />
+        <activity android:name="com.mgUnicorn.eh.GooglePayPayment" />
+        <activity android:name="com.mgUnicorn.eh.splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mgUnicorn.eh.paymentpatientActivity" />
+        <activity android:name="com.mgUnicorn.eh.pdfActiivity" />
+        <activity android:name="com.mgUnicorn.eh.casePaperShow.showCasepaper" />
+        <activity android:name="com.mgUnicorn.DiagnosisActivity.Diagnosis" />
+        <activity android:name="com.mgUnicorn.eh.Temperamenet.Bilious" />
+        <activity android:name="com.mgUnicorn.eh.Temperamenet.Nervous" />
+        <activity android:name="com.mgUnicorn.eh.Temperamenet.Lymphatic" />
+        <activity android:name="com.mgUnicorn.eh.Temperamenet.Sanguine" />
+        <activity android:name="com.mgUnicorn.eh.ShowActivity" />
+        <activity android:name="com.mgUnicorn.eh.settingsActivity" />
+        <activity android:name="com.mgUnicorn.eh.StorageActivity" />
+        <activity
+            android:name="com.mgUnicorn.eh.ChatDetailsPatient3"
+            android:windowSoftInputMode="adjustPan" />
+<!--        <activity android:name="com.mgUnicorn.eh.settingsActivity" />-->
+        <activity android:name="com.mgUnicorn.eh.GroupChatActivity" />
+        <activity android:name="com.mgUnicorn.eh.add_petient" />
+        <activity android:name="com.mgUnicorn.eh.entermobilenoone" />
+        <activity android:name="com.mgUnicorn.eh.verifyenterotptwo" />
+        <activity android:name="com.mgUnicorn.eh.signInActivity" />
+        <activity android:name="com.mgUnicorn.eh.signupActivity" />
+        <activity android:name="com.mgUnicorn.eh.MainActivity"
+            android:exported="true">
+
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+
+
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="@string/admob_app_id"/>
+
+
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.mgUnicorn.eh.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

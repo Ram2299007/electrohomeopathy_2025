@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electricity.YE">
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutye">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="YELLOW ELECTRICITY-[-VE]"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+ android:text="This has a negative action, and checks excess of vitality, after applying Red Electricity equilibrium may berestored by the use of Yellow Electricity, or the latter may be used as an antidote to Red or Blue Electricity when either of the latter has produced excessive stimulation. This electricity relaxes muscular tension, and has been used successfully to overcome trismus in newborn children, and tetanus, in which it succeeds in relaxing the nerves. It calms the nerves in hysterical and paralytic attacks. Taken internally it acts as a tonic to the stomach, and diminishes arterial excitement in the case of fevers. It relieves gastralgia, gastritis, etc.
+Application of Yellow Electricity to the positive and central parts of body, when these are painful, in case of cramps, deafness [nervous], hemiplegia, pain arising from bruises, pains in womb [apply to left sacral nerve], sciatica.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+    android:text="•Acts upon intestines, nervous systems and use as germicidal as vermifugo.
+•Intestinal mucosa, maintas the state of mucosa, and controls its secretions.
+•Promotes the state of mind and improves the sleep.
+•Dermatosis, itching, eczema and allergies of skin as well as respiratory degenerative systems.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="
+1] RUTA GRAVEOLENS-30-Parts-Rue-bitterwort-\n
+Acts upon the periosteum and cartilages, eyes and uterus. Complaints from straining flexor tendons especially. Tendency to the formation of deposits in the periosteum, tendons and about joints, especially wrist.Overstrain of ocular muscles. All parts of the body are painful, as if bruised, sprains, lameness after sprains, jaundice, feeling of intense lassitude, weakness and despair.\n
+
+2] PODOPHYLUM PELTATUM-20-Parts-Mayapple-\n
+It is especially adapted to person of bilious temperament. It affects chiefly the duodenum, small intestine, liver, and rectum. The podophyllum disease is a gastro-enteritis with colicky pain and bilious vomiting. Stool is watery with jelly like mucus, painless profuse. Many troubles during pregnancy, prolepses uteri, painless cholera morbus. Torpidity of liver, portal engorgement with a tendency to hemorrhoids, hypogastric pains. It is also used topically for treating precancerous white patches on the tongue and mouth.\n
+
+3] CHELIDONIUM MAJUS-20-Parts-Celandine-\n
+A prominent liver remedy, the jaundiced skin, and especially the constant pain under inferior angle of right scapula. Used for warts, liver diseases, many ailments of the digestive system, and for eye irritation, herpes, serous effusion, hydrocele. Bilious complication during gestation.\n
+
+4] SAMBUCUS NIGRA-20-Parts-\n
+For cold, hay fever, sore throat, arthritis, epilepsy, mild laxative, treat fracture and muscle spasm,antioxidant.\n
+
+5] ALLIUM CEPA-10-Parts-Onion-\n
+Coryza, with acrid nasal discharge, antibiotic against skin infection, mycolitic, and anti-inflammatory for expectorant and the pectoral, high BP, obesity, rheumatism, kidney diseases, chronic hepatitis, fatty degeneration of liver, stimulate hair grow, acne, sooths and makes skin more beautiful.\n
+"          android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

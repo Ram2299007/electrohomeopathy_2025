@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c6">
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCEROSO-6"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+ android:text="It has a valuable tonic property. It has beneficial in cases of bleeding from wound, when Angiotico is failed. This best remedy for kidney, used for renal calcification, it excretes deposited material from kidney. Used in bath in cases of general weakness and cachexia. It also excretes uric acid from blood tissue by increasing the kidney function with hypoglycemia. It is anti-cancerous renal remedy, diuretic, antilithiatic.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+ android:text="•Tissue / glandular or anti degenerative remedies.
+•C6 for kidneys complaints with kidney stone and other parts of excretory systems.
+•S6 for parenchymal cells and C6 for mesenchymal.
+•In case of structural disorders of kidneys S6 + C6 used with A3 + Ver-1 and Ven-1.
+•Renal or bladder tumors C6 first choice, with GE.
+•Blunt injuries, gout and rheumatism C6 + S5 + C5 +Linf-2 + F1 and BE or GE.
+•Gout, rheumatism, uric acid, insect bite or sting bite, mosquito bite. High blood pressure due to kidney, Uric acid due to kidney varicose veins, UTI,"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="1] RHUS TOXICODENDRON-30-Parts-Poison ivy-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc., producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+
+2] ARNICA MONTANA-20-Parts-\n
+Produces conditions upon the system quite similar to those resulting from injuries, falls blows, contusions, septic conditions, prophylactic of pus infection. After traumatic injuries, over use of any organ, strains. Arnica is deposited to cerebral congestion. Acts best in plethoric, feebly in debilitated with impoverished blood, cardiac dropsy with dyspnea. A muscular tonic. Limbs and body ache as if beaten. Joints as if sprained. Marked effect on
+blood. Affects the venous system inducing stasis. Ecchymosis and hemorrhages. Relaxed blood vesicles, black and blue spots. Tendency to hemorrhage and low fever states tendency to tissue degeneration. Abscesses that do not mature. Rheumatism of muscular and tendinous tissue, especially of back and shoulders. Aversion to tobacco. Thrombosis, hematocele.\n
+
+3] CONIUM MACULATUM-20-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+4] LEDUM PULUSTRE-10-Parts-Marsh-tea-\n
+Affects especially the rheumatic diathesis, it also affect the skin, diuretics, for cough, lung infection, chest congestion, diarrhea, kidney problems, external application for itching, rheumatic and arthritic conditions, animal and insect bites.\n
+
+5] PIMPENELLA SAXIFRAGA-10-Parts-\n
+Used for upper respiratory tract infections, urinary tract infections, diuretic, kidney and bladder stone, calms nervous excitation, to helps digestion.\n
+
+6] VINCETOXICUM OFFICINALIS-10-Parts-Sage-\n
+Antioxidant, antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin,induce vomiting, purgative, antitumor, snake bite etc.\n
+
+"         android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+
+</ScrollView>

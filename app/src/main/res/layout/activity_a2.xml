@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angitico.A2">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layouta2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="A-2"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+ android:text="	It stimulates venous system of body. This is remedy of sanguine temperament. It regulates venous blood circulation of body and any organ of body. A-2 has mostly acts on right side of body, therefore in diseases of right side should be essentially done. In all types of pains occurring due to blood circulation disturbances. Used for cyst tumors, rheumatism.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+ android:text="•Circulatory remedies.
+•Right side of heart, veins, and venous circulation.
+•Blood purifier, improper drainage of blood, maintenance venous of blood circulation.
+•Varicose ulcers, thrombosis, hemorrhoids, dry piles, prolapsed anus,.
+•Locomotors disorders, stiffness in gout or rheumatism, swelling and pain.
+•A2 is dark red colored hemorrhages GE and WE.
+•A2 is a remedy for female, leucorrhea, menstrual disturbances,  menorrhagia, post  menopausal ailments.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="1] AVENA SATIVA-30-Parts-\n
+	Has a selective action on brain and nervous system. Nervous exhaustion, sexual debility, and the morphine habit, call for this remedy in material dosage. Best tonic for after exhausting diseases. Nerve termers of the aged. Paralysis agitans, epilepsy. Rheumatism of heart. Acute coryza, alcoholism, sleeplessness especially of alcoholics. For sexual impotence, gastritis, colitis and other digestive problems.\n
+2] HAMAMELIS VERGINICA-20-Parts-Witch hazel-\n
+	It has been used for relieving symptoms of varicose veins and hemorrhoids, diarrhea, menopausal disorders. Compresses used for skin to activate blood flow for dermatitis, dry skin, eye washing use for eye sedatives.\n
+ 3] SANGUINARIA CANADENSIS-20-Parts-\n
+	It is right sided remedy, and affects chiefly the mucus membrane, especially of the respiratory tract. It has marked Vaso-motor disturbances, as seen in the circumscribed redness of the cheek, flashes of the heat, burning in palms and soles. Burning sensation, like from hot  water. Influenzas  coughs. Phthisis. Local anesthetic, fever, antibacterial, antiviral.\n
+ 4]HYDRASTIS CANADENSIS- 10-Golden Seal/Spoon Worts-\n
+Acts especially on mucus membrane. The catarrh may be everywhere-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lumbago. It’s action on liver is marked. Cancer and cancerous state before ulceration.\n
+5] AESCULUS HIPPOCASTANUM-10-Parts-Blood root-\n
+	The action of this drug is most marked on the lower bowel, producing engorged hemorrhoidal veins, with characteristic backache, with actual constipation. Much pain but little bleeding. Varicose veins general of purple color, venous stasis, ever thing is slowed down, digestion, heart, bowels, etc. congestion of the liver and portal system, with constipation. The backaches and gives out and unfits the patient for business. Flying pains all over. Fullness in various parts, dry, swollen mucus membrane. Compresses use for varicose veins in legs. Thrombophlebitis, prostate.\n
+6] ACHILLEA MILLEFOLIUM-10-Parts-Yarrow-\n
+	A valuable remedy for various types of hemorrhages, blood bright red. Incarcerated hernia, small pox, with great pain in pit of stomach. After operations for stones. Continued high temperature, hemoptysis. Used for cancer, chlorosis, dentition, diarrhea, dysmenorrhea, epilepsy, enuresis, fistula, lachrymal is, hematemesis, hematuria, hypochondriasis, hysteria, leucorrhea of children, antiseptic, to treat wounds, ulcers, sore furuncles, chilblains, cracks.\n
+ 7] MALVA SILVESTRIS-5-Parts-Common mallow-\n
+	It contains VITAMIN A B C, flavonoids, essential fatty acids, fiber, calcium, magnesium, Zink, selenium and potassium. Mallow makes excellent soothing demulcent herbs, especially for cases of inflammation, either for the urinary, digestive respiratory system. Some of the most impressive health benefits of malva sylvestris include its ability to speed wound healing, protect against infection, reduce inflammation, reduce sign of aging, improve respiratory health, improve sleep, and treat headaches.\n
+"         android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+         android:text="1] AVENA SATIVA-30-Parts-\n
+	Has a selective action on brain and nervous system. Nervous exhaustion, sexual debility, and the morphine habit, call for this remedy in material dosage. Best tonic for after exhausting diseases. Nerve termers of the aged. Paralysis agitans, epilepsy. Rheumatism of heart. Acute coryza, alcoholism, sleeplessness especially of alcoholics. For sexual impotence, gastritis, colitis and other digestive problems.\n
+2] HAMAMELIS VERGINICA-20-Parts-Witch hazel-\n
+	It has been used for relieving symptoms of varicose veins and hemorrhoids, diarrhea, menopausal disorders. Compresses used for skin to activate blood flow for dermatitis, dry skin, eye washing use for eye sedatives.\n
+ 3] SANGUINARIA CANADENSIS-20-Parts-\n
+	It is right sided remedy, and affects chiefly the mucus membrane, especially of the respiratory tract. It has marked Vaso-motor disturbances, as seen in the circumscribed redness of the cheek, flashes of the heat, burning in palms and soles. Burning sensation, like from hot  water. Influenzas  coughs. Phthisis. Local anesthetic, fever, antibacterial, antiviral.\n
+ 4]HYDRASTIS CANADENSIS- 10-Golden Seal/Spoon Worts-\n
+Acts especially on mucus membrane. The catarrh may be everywhere-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lumbago. It’s action on liver is marked. Cancer and cancerous state before ulceration.\n
+5] AESCULUS HIPPOCASTANUM-10-Parts-Blood root-\n
+	The action of this drug is most marked on the lower bowel, producing engorged hemorrhoidal veins, with characteristic backache, with actual constipation. Much pain but little bleeding. Varicose veins general of purple color, venous stasis, ever thing is slowed down, digestion, heart, bowels, etc. congestion of the liver and portal system, with constipation. The backaches and gives out and unfits the patient for business. Flying pains all over. Fullness in various parts, dry, swollen mucus membrane. Compresses use for varicose veins in legs. Thrombophlebitis, prostate.\n
+6] ACHILLEA MILLEFOLIUM-10-Parts-Yarrow-\n
+	A valuable remedy for various types of hemorrhages, blood bright red. Incarcerated hernia, small pox, with great pain in pit of stomach. After operations for stones. Continued high temperature, hemoptysis. Used for cancer, chlorosis, dentition, diarrhea, dysmenorrhea, epilepsy, enuresis, fistula, lachrymal is, hematemesis, hematuria, hypochondriasis, hysteria, leucorrhea of children, antiseptic, to treat wounds, ulcers, sore furuncles, chilblains, cracks.\n
+ 7] MALVA SILVESTRIS-5-Parts-Common mallow-\n
+	It contains VITAMIN A B C, flavonoids, essential fatty acids, fiber, calcium, magnesium, Zink, selenium and potassium. Mallow makes excellent soothing demulcent herbs, especially for cases of inflammation, either for the urinary, digestive respiratory system. Some of the most impressive health benefits of malva sylvestris include its ability to speed wound healing, protect against infection, reduce inflammation, reduce sign of aging, improve respiratory health, improve sleep, and treat headaches.\n
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

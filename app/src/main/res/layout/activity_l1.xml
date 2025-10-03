@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lynfatic.L1">
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutl1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="LINFATICO-"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="This is remedy of lymphatic temperament. It is chiefly used in ointments, lotions, compress and bath.Internally it is used for angina pectoris, asthma, cephalgia, colic at the periods, cold tumours, congestion and hardening of the glands, creeping sensation in the skin with pruritis and desquamation, fistula [dental], gastric debility, general debility, glandular enlargement with induration, goiter, gout, muscular weakness, polyps, prostate fluids, rheumatic fever, skin diseases, vertigo, toothache, testicles, hyperthyroidism.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="•Immune related disorder
+•Connective tissue remedy as well as Glandular Remedy
+•L1 influenced lymph and blood as well as upon muscles and articular surface.
+•Muscular and joint disease, myoasthenia, muscular weakness, gout, rheumatism, dislocation and disfigurement of joints.
+•Acts on blood cells, dyscrasia of blood as in anemia, leucosis.
+•Maintain in the count of WBC and RBC.
+•Inflammatory lesions of skin with other specific remedies of Sand C.
+•+ ve dill stimulates secretion of cutaneous glandular secretions, and higher dill decrease the same.
+•Hyperactivity of sweat glands, excessive sweating, dryness of skin,
+•Dermatitis, dry or moist eczema, psoriasis, scabies.
+•Joint and muscles, uric acid, gout or rheumatism.
+•Amnesia, dementia, chorea, epilepsy, hysteria.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="
+1] FUCUS VESICULOSIS-20-Parts-Algae/Sea KelpA\n
+remedy for obesity and non-toxic goiter. Acidity, oesophagic reflux, hiatus hernia, pyrosis, nourishing, obstinate constipation, thyroid enlargement in obese subjects, anti-scurvy, poultice is used in cellulitis, wrinkle, skin flaccidity.\n
+
+2] HUMULUS LUPULUS-20-Parts-Hops-\n
+Used for anxiety, sleep disorders, nervousness, sexual hyper excitation, dysphagia, loss of appetite, diuretic, analgesic, antipyretic, antispasmodic, antibacterial.\n
+
+3] MENYANTHES TRIFOLIATA-20-Parts-\n
+Anti-inflammatory, rheumatic pains, loss of appetite, used as tonic to cleans the blood, carminative, diuretic, emetic, emmenagogue, febrifuge, irregular menstruation.\n
+
+4] CENTAURIUM ERYTHRAEA-10-Parts-Centaury-\n
+Acts on digestive system, such as bloating, dyspepsia, flatuaence and anorexia, kill worms, treat dropsy, purify blood, fever, sedative, used for jaundice.\n
+
+5] ECHINACEA AUGUSTIFOLIA-10-Parts-Cone Flower-\n
+It is used to strengthen the immune system. Antibiotic, antiviral such as the common cold and flu, vaginal fungal infections, anti-inflammatory, anti-toxic, snake and insect bites.\n
+
+6] OXALIS ACETOSELLA-10-Parts-Wood Sorrel-\n
+Astringent, antiscrobutic, diuretic, to treat fever and urinary problems, emmenagogue, expectorant, used to remove cancerous grouth from lips.\n
+
+7] SIMARUBA AMARA-10-Parts-Mountain Damson-\n
+Used for diarrhea, dysentery, weak digestion, edema, as a tonic.\n
+
+8] PULMONARIA OFFICINALIS-10- Parts-Lung wort-\n
+Expectorant, to treat breathing conditions, diuretic, kidney and urinary tract problems, help in cell regeneration, stomach and intestinal problems, throat irritation, sooth lungs, cough and bronchitis.\n
+
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

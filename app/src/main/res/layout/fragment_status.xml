@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    tools:context=".Fragments.statusFragment"
+    >
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/statusRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/pink_dark2"
+        android:src="@android:drawable/ic_input_add"
+
+        android:tint="@android:color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="90dp"
+
+        android:backgroundTint="@color/pink_dark2"
+        app:srcCompat="@drawable/down_arrow"
+
+        android:tint="@android:color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

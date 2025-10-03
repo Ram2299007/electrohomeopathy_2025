@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvertiseActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:id="@+id/txtinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:fontFamily="@font/amarante"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="In association with"
+            android:textColor="@color/light_pink"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+
+            android:scaleType="fitCenter"
+
+            android:rotation="-90"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/drcard" />
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/dradd" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

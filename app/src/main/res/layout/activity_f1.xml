@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Febrifugo.F2">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutf1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="FEBRIFUGO-1- Temperament: Nervous
+"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="
+	The great remedy for diseases of the liver and spleen. It exerts also valuable influence over the kidneys, pancreas, and other glands. Specific in all kinds of fever. It is also of great use in nervous disorders which spread from the nervous centers and the abdominal and thoracic ganglions of the sympathetic nerve.
+	Acute angina, affection of mucus membrane [with s5], cephalgia, chills [with s1], cholera [with s10], colds, constipation [1st dil.], diabetes, diarrhea [1st dil. with s1], digestive disorders, diplopia, dyspepsia, enteritis, erysipelas, fainting, fevers. Flatulence, gastralgia, gastritis [2nd dil. with s5]. Heart diseases, hepatitis, hypochondriasis, hysterical nervous attack, jaundice, kidney disorders, leucorrhea, neuralgic affections, palpitation [nervous], polyps [2nd dil. With c4], skin diseases, spleen disorders.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+      android:text="•Anti pyretic, nervine remedies.
+•For nervous system, maintains or control the functions of whole body, maintains blood supply.
+•F1 increase or decrease of blood supply to individual body portion.
+•Spinal nerves, motor and sensory nervous, solar plexus.
+•Epilepsy, hysteria, psychic disorders, depression, anxiety, headache, all periodic fever,
+•Control the functions of skin,
+•F1 lower dill stimulate the nerve impulse and increase the activation of various body structures, and higher dill decrease same.
+•Acts up on pituitary glands, and cure so many complaints, hormonal imbalance, hyper or of hypo state of thyroid, adrenal glands.
+•Excrete foreign bodies from our body,
+•In gout and uric acid, monosodium urate, calcium pyrophosphate, dehydrate F1 + S5 + S6 + A3 + WE or GE. •F1 maintains structural and functional activities of organ and system.
+•Acts on all magnetic and electric disturbances in the nervous system.
+•Regulate rhythm, body temperature, heart rate, and blood pressure.
+•Maintain temperature, water balance, and hormone balance.
+•Exhaustion, depression, anxiety, amnesia, disorientation, confusions, convulsions, spasmodic contraction, paralysis, hemiplegia, paraplegia, mania, psychosis.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text=" 1] ACONITUM NAPELLUS-20-Parts-Monkshood-\n
+	A state of fear, anxiety, anguish of mind and body. Physical and mental restlessness, fright, is the most characteristic manifestation of aconite. Acute, sudden, and violent invasion, with fear, Call for it. First remedy in inflammations, inflammatory  fevers. Serous \nmembrane and muscular tissue affected markedly. Burning in internal parts, tingling, coldness, and numbness. Tension of arteries, emotional and physical mental tension explain many symptoms. Aconite causes only functional disturbances, no evidence that it can produce tissue change. Its action is brief and shows no periodicity. Its sphere is in the beginning of an acute disease and not to be continued after pathological changes comes. used for chronic neuralgic pains, especially trigeminal nerve, witch affect the face, sciatic nerve, to cure drug addiction.\n
+2] CINCHONA SUCCIRUBA-25-Parts-\n
+	Cinchona is used for fever, hair loss, promoting the release of gastric juice, and treating bloating, fullness, and other stomach problems. It is also used for blood vessel disorders including hemorrhoids, varicose veins, and leg cramps.\n
+3] CINCHONA CALISAYA-20-Parts-\n
+	Cinchona is used for fever, hair loss, promoting the release of gastric juice, and treating bloating, fullness, and other stomach problems. It is also used for blood vessel disorders including hemorrhoids, varicose  veins, and leg cramps.\n
+ 4] AESCULUS HIPPOCASTANUM-20-Parts-Blood root-\n
+	The action of this drug is most marked on the lower bowel, producing engorged hemorrhoidal veins, with characteristic backache, with actual constipation. Much pain but little bleeding. Varicose veins general of purple color, venous stasis, ever thing is slowed down, digestion, heart, bowels, etc. congestion of the liver and portal system, with constipation. The backaches and gives out and unfits the patient for business. Flying pains all over. Fullness in various parts, dry, swollen mucus membrain. Compresses use for varicose veins in legs. Thrombophlebitis, prostate.\n
+5] ERYTHRAEA CENTAURIUM-15-Parts-\n
+	It acts on digestive system, such as bloating, dyspepsia, and flatulence, anorexia [loss of appetite]. It is also acts on liver and kidneys to purify the blood. Used also in fevers. \n
+6] BERBERIS VULGARIS-1O-Parts-Berberry-\n
+             Acts on the venous system. Producing pelvic engorgement, Hepatic and  Rheumatic affections particularly with urinary. Hemorrhoidal and Menstrual complaints, Old gouty constitutions. Pain in region of kidney is mostly marked. Gall stone, Vesical catarrh. It was also marked action on Liver, promoting flow of bile.	\n
+7] SALIX ALBA-10-Parts-\n
+	Stem- used as pain killer and reduce fever. Bark extract for sore throat gargles, heart burn, food poisoning. Leaves- for nervous insomnia and are added in bath to ease rheumatism. Root-to treat leukemia and restore bones.\n
+8] CETRARIA ISLANDICA-5-Parts-Island moss-\n
+	It is used as expectorant, pectoral, anti-tussive, antitubercular, antiemetic during pregnancy. For treating irritation of mouth and throat, loss of appetite, common cold, dry cough, bronchitis, kidney and bladder complaint, and the tendency towards infection. Externally, it is used in the treatment of boils, vaginal discharge and impetigo. \n
+9] SAMBUCUS NIGRA-5-Parts-\n
+	For cold, hay fever, sore throat, arthritis, epilepsy, mild laxative, treat fracture and muscle spasm, antioxidant.	\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

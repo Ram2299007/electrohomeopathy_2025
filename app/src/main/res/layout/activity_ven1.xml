@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Venorica.Ven1">
+
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutven1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="VEN"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+android:text="A remedy which has remarkable effect in all primary, secondary, teritiary and even hereditary venereal
+cases, especially when the disease exhibits itself on the surface of the body. Its action is on urethra, testis, ovary,
+fallopian tube, ureters, and vagina, spermatic cord, prostate. It is called hereditary remedy. It is used for gonorrhea,syphilis, leprosy.The first dilution of this remedy has great power in eliminating the poison from the system. It brings the disease to the surface. The litre and second dilution seems to nutralise rather than expel the poison.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+    android:text="•Anti-septic and Anti venereal disease remedies.
+•Constitutional remedy for entire body structures, specifically acts on male and female genital organs and deep structure of skin.
+•Mucosal surface, glandular structures of male and female genitals as testes, seminal vesicles, uterus, ovaries, fallopian tubes and its mucous membranes.
+•Syphilis, gonorrhea, gonorrheal urithritis, and endo cervitis.
+•Congenital or hereditary diseases,
+White discharge with strong smell
+All types of cancer and STD
+It Detox all poisonous substance from system in higher dilution
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="1] STEFFENSIA ELONGATIA-30-Parts-Matico-\n
+It is used as an anti-hemorrhagic and antiseptic.\n
+
+2] SMILAX MEDICA-20-Parts-Sarsaparilla-\n
+Rheumatism, Arthritis, Renal calculi, Nephritis, Influenza, Lack off appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, Kidney diseases.\n
+
+3] THUJA OCCIDENTALIS-20-Parts-\n
+Acts on skin, blood, gastro-intestinal tract, kidneys and brain. The relation to \nthe production of pathological
+vegetations condylomas, warty excrescences, spongy tumors is very important. Moist mucus tubercules. Bleeding fungus growth, Naevus. Excess of vinosity. It has a specific antibacterial action, as in gonorrhea and vaccination. Sycotic pains i.e., treating in muscles and joints.\n
+
+4] ALTHEA OFFICINALIS-10-Parts-Marshmallow-\n
+It is used in constipation, inflammation of stomach, stomach ulcer, colitis, gastroenteritis, mucus membrane irritation, digestive. It is also used in children, when teeth are erupting.\n
+
+5] CLEMATIS ERECTA-10-Parts-Vitalba-\n
+Acts especially on skin, glands and Genito-urinary organs, especially testicles. Used in disturbances of sleep and neuralgic pains in various parts, Muscles relaxed or twitching. Treating cancer tumors as well as itching, fever, renosis, nephrosis, ulcers.\n
+
+6] POPULUS TRIMULOIDS-10-Trimbling Popular-\n
+Useful in dyspepsia and catarrh of the bladder, especially in old people. Acts as nerve tonic, stimulant, diuretic, expectorant, anti-inflammatory and febrifuge. In treating rheumatism and also release pains of menstrual cramps.\n
+
+7] MYRTUS COMMUNIS-10-Parts-Swwet Myrtle-\n
+Antiseptic, astringent, decoction used for bruises, hemorrhoids. Incipient phthisis, nerve sedative and stimulant to mucous membrane, bronchitis, cystitis and pyelitis.\n
+
+8] ROSA CANINA-10-Parts-Dog Rose-\n
+Astringent, carminative, laxative, diuretic, ophthalmic and tonic, and also used in the treatment of colds, influenza, minor infectious diseases, scurvy, diarrhea and gastritis.\n
+
+9] VIBURNUM OFFICINALIS-10-Parts-Cramp Bark\n
+A general remedy for cramps. Colicky pains in pelvic organs. Superconscious of internal sexual organs. Female symptoms most important. Often prevents miscarriage. False labor pains. Spasmodic and congestive affections, development upon ovarian or uterine origin.\n
+
+10] VERONICA OFFICINALIS-10-Parts-Speed well-\n
+Used as a tonic, to cause sweating, to purify blood and to increase metabolism, Invigorating, Appetizer and Digestive, Expectorant, Duretic, Depurative, Pharyngitis, Bronchitis, Catarrh, Cough.\n
+
+11] BETUL ALBA-5-Parts- Birch Tree-\n
+Used for edema, premenstrual syndrome, kidney calculus, depurative, skin affliction, infections of the urinary tract, diuretic. Used for to reduce fever, compress is used for wounds and sores, antimicrobial and cystitis.\n
+
+12] CANABIS SATIVA-5-Parts-GANJA/Hemp-\n
+Seems to affect especially the urinary, sexual, and respiratory organs. Neuralgic and rheumatic pains. Confusion to thought and speech.\n
+
+13] EUCALYPTUS GLOBULUS-5-Parts-Blue Gum Tree-\n
+It is a powerful antiseptic and distractive, a stimulating expectorant and an efficient diaphoretic, bronchial catarrh, acute and chronic bronchitis. Atonic dyspepsia, gastric and intestinal catarrh. A remedy with marked effect on catarrhal process, malaria and intestinal disturbance. Produces dieresis and great increase of urea. Hemorrhages internally and locally.\n
+
+14] SOLANUM DULCAMARA-5-Parts-Bitter Sweet-\n
+Used for eczema, itchy skin, ring worm, acne, boils, and warts. For cough, high blood pressure, diabetes, and menstrual pains, joint pains, fluid retention and as a calming agent.\n
+
+15] TILIA EUROPAEA-5Parts-Lime/Linden-\n
+Used in muscular weakness of eye. Treat nervous system, insomnia, induce sweating which reduces cold, flu, headache, arteriosclerosis, treat kidney stone, gout, hemorrhage, thin, pale blood. Puerperal metritis.\n
+
+16] VINCA MINOR-5-Parts-Lesser Periwinkle-\n
+Reduce internal bleeding, menstrual bleeding, nose bleeding, high blood pressure, ulcer and sore throat, piles and small wound, intestinal pain and swelling, toothache, water retention.\nn
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="2]HYDRASTIS CANADENSIS-10-Golden Seal/Spoon Worts-\n
+            Acts specially on mucus membrane. The catarrh may be ever where-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lumbago. It’s action on liver is marked. Cancer and cancerous state before ulceration, when pain is in principle symptoms. Goiter of  puberty and pregnancy."
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="3] SCROFULARIA NODOSA-10-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present. HODGKINS DISEASE [A cancer of lymphatic system, which is part of our immune system]. A valuable skin remedy. Has a specific affinity for the breast, very useful in breast tumors. Eczema of ears, Pruritis vagina. Lupoid ulceration of pharynx. Scrofulous swelling, painful hemorrhoids, Tubercular testis, Epithelioma, multiple nodular swelling in the breasts, Pain in all flexor muscles.  Blood cleansing tonic, Diuretic, Poultice apply for Gangrene, swollen lymph glands Psoriasis, Boils, Small wounds.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="4] NASTURTIUM OFFICINALIS-10-Parts-Water cress-
+           Used for UTI , swollen airways, Cough and Bronchitis, Diuretic, Expectorant ,Prevent Scurvy ,cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS. It’s high content of VITAMIN C makes it is a remedy i.e., particularly valuable for chronic illness.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+            android:text="5] TUSSILAGO FARFARA-10-Parts-Colt’s foot-\n
+           For Bronchitis, Asthma, whooping cough, Lung cancer, Emphysema, Inflammation, Rheumatism, Swelling Water retention and Tuberculosis. Leaves reach in VITAMIN C and ZINK.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="6] SMILAX MEDICA-10-Parts-Sarsaparilla-
+            Rheumatism, Arthritis, Renal calculi, Nephritis, Influenza, Lack of appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, kidney diseases."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="7] VERONICA OFFICINALIS-10-Parts-Speed well-\n
+            Used as a tonic, to cause sweating, to purify blood and to increase metabolism, Invigorating, Appetizer and Digestive, Expectorant, Diuretic, Depurative, Pharyngitis, Bronchitis, Catarrh, Cough.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="8] MATRICARIA CHAMOMILLA-10-Parts-Chamomile-\n
+            Soothe Nervous stress, Digestive problems, Ulcerated or inflamed bowel. Excess intake, weak stomach muscles. It is also used as a mild laxative and is anti-inflammatory, Bactericidal.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textViewd19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="9] NUX VOMICA-10-Parts-Vomitting nut-
+	Digestive tonic, menstrual problems, paralysis, rabies, erectile dysfunction [impotence], used in rat poison.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

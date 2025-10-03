@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scrofoloso.s5">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layouts5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="S-5- Temperament: Bilious
+"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="    It cures liver diseases, skin diseases. It is remedy of gland. It is medicine of bilious temperament. The first effect of S-5 is on largest gland of body i. e. Liver, after that there is specific effect on body’s all glands. It has ant cancerous properties. It’s sphere of action is very extensive and very deep. It is especially useful in skin diseases. It is largely used in baths, compresses etc. Internally it is used for Angina, Boils, Calculus, Carbuncles, Chilblains, Cold abscesses, Colic, Constipation, Chronic coryza, Diarrhea Digestive disorders, Drunkenness, Dyspepsia, Dysmenorrhea, Eczema, Goiter, Gout, Gravel, Laryngitis, Myelitis, Pains, Parotid gland diseases, Piles [ blind], Rheumatism.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+  android:text="•Lymphatic or metabolic and digestive remedy.\n
+•S5 is glandular and digestive remedy, acts up on glandular structures of whole body as liver, gall bladder, spleen, pancreas, cutaneous glands.\n
+•S5 is specific for those digestive disorders, faulty secretion of liver, gall bladder, or pancreas.\n
+•Maintenance digestive functions, gastric glandular and mucosal secretions.\n
+•Hyper or hypochlorhydria, maintains secretion of intestine and small intestine.\n
+•Best remedy for renal calculi, also renal colic, S5 + S6 + C6.\n
+•Locomotors disorders and muscular system,\n
+•Disorders of joints, gout, rheumatism, rheumatoid arthritis, myopathy, muscular pain, uric acid, weakness or lameness of muscles,\n
+•S5 is motor spinal nerves, paralysis, weakness of muscles\n
+•Skin disease S5 is used for LA and S3 is used internal. Urticaria, acute skin diseases
+Detoxification via liver.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="1]COCHLARIA OFFICINALIS-25-Parts-Water Cress/Scurvy Grass-\n
+            Antiscorbutic, Appetizer and digestive, Diuretic and Depurative, Rubefacient i.e .attract the blood towards the skin, thus reducing the congestion of internal organs, blood purifier , skin irritation.
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+          android:text="2] BERBIRIS VULGARIS-2O-Parts-Berberry-\n
+             Acts on the venous system. Producing pelvic engorgement, Hepatic and  Rheumatic affections particularly with urinary. Hemorrhoidal and Menstrual complaints, Old gouty constitutions. Pain in region of kidney is mostly marked. Gall stone, Vesicle catarrh. It was also marked action on Liver, promoting flow of bile.	"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="3]HYDRASTIS CANADENSIS- 20-Golden Seal/Spoon Worts-\n
+            Acts especially on mucus membrane. The catarrh may be ever where-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lu"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="  4]  SCROFULARIA NODOSA-20-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present. HODGKINS DISEASE [A cancer of lymphatic system, which is part of our immune system]. A valuable skin remedy. Has a specific affinity for the breast, very useful in breast tumors. Eczema of ears, Pruritis vagina. Lupoid ulceration of pharynx. Scrofulous swelling, painful hemorrhoids, Tubercular testis, Epithelioma, small painful multiple toumers in the breasts, Pain in all flexor muscles.   Blood cleansing tonic, Diuretic, Poultice apply for Gangrene, swollen lymph glands Psoriasis, Boils ,Small wounds.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+   android:text=" 5] SMILAX MEDICA-15-Parts-Sarsaparilla-\n
+ Rheumatism, Arthritis, Renal calculi, Nephritis, Influenza, Lack off appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, kidney diseases.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+
+           android:text="  6] MATRICARIA CHAMOMILLA-10-Parts-Chamomile-\n
+ Soothe Nervous stress, Digestive problems, Ulcerated or inflamed bowel. Excess intake, weak stomach muscles. It is also used as a mild laxative and is anti-inflammatory, Bactericidal.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+        android:text=" 7] NASTURTIUM OFFICINALIS-5-Parts-Water cress-\n
+ 	 Used for UTI, swollen airways, Cough and Bronchitis, Diuretic, Expectorant, Prevent Scurvy, cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS. It’s high content of VITAMIN C makes it is a remedy i.e. particularly   valuable for chronic illness.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+           android:text="8] VERONICA OFFICINALIS-5-Parts-Speed well-\n
+            Used as a tonic, to cause sweating, to purify blood and to increase metabolism, Invigorating, Appetizer and    Digestive, Expectorant, Diuretic, Depurative, Pharyngitis, Bronchitis, Catarrh, Cough.
+
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textViewd19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="9] TUSSILAGO FARFARA-5-Parts-Colts foot-\n
+           For Bronchitis, Asthma, Whopping cough, Lung cancer, Emphysema, Inflammation, Rheumatism, Swelling Water retention and Tuberculosis. Leaves reach in VITAMIN C and ZINK.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+
+</ScrollView>

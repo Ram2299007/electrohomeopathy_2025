@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electricity.BE">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutBe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="BLUE ELECTRICITY-[ +VE ]"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="Blue Electricity is used in the same diseases as Red Electricity, for patient of sanguine temperament, for whom R E is too stimulating. It stimulates those nerves which control the circulatory system and is useful in the treatment of all diseases of the blood and blood vessels. Especially in hemorrhage and varicose ulcers, blood cancer, cut, piles, ulceration of knee, throat, and uterus, cerebral congestion, to regulate menstruation, pulmonary congestion, stop palpitation and given tone heart, when apply compresses moistened with 5 to 10 drops on heart. Applied for burning pains in cancer in the same way [ 10-20 drops ].
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+    android:text="•Acts upon motor spinal nerves, sensory spinal nervous, and cerebral nervous system including brain.
+•Stimulates the body functions, and increase the body activities of body organs. Also give strength of organs and systems.
+•Acts upon pineal gland, promotes it’s the activities, promotes the growth especially the children.
+•Gout, rheumatism, hypotension, hypo pyrexia, paralysis, trigeminal neuralgia, paraplegia, hemiplegia especially of right side.
+•Cold and calmly skin with numbness, chorea, sluggish activities of glandular structures, sprain.
+•Stimulates the process of granulation incase of wound, ulcers and external or internal injuries.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="
+1] CINCHONA CALISAYA-30-Parts-Yellow Bark-\n
+Cinchona is used for fever, hair loss, promoting the release of gastric juice, and treating bloating, fullness, and other stomach problems. It is also used for blood vessel disorders including hemorrhoids, varicose veins, and leg cramps.\n
+
+2] CAPSELLA BRUSA PASTORIS-20-Parts-Shepherd’s purse-\n
+It is used in the treatment of nose bleeding and urinary calculus, Hemostatic, oxytocic, infusion is used for uterine hemorrhages, Laboure acceleration, intestinal atony, low blood pressure, compresses used for skin wounds and burn.\n
+
+3] PINUS NIGRA-20-Parts-Scotch Pine-\n
+Stiffness, gouty pains in all joints, especially finger joints, cramps in calves. Rheumatic, bronchial and
+urticarious symptoms, expectorant, inhalation for bronchitis, for hair growth. Nettle rash, itching all over, nose itches.\n
+
+4] PINUS MARITIMA-20-Parts-Sugar Pine-\n
+Expectorant, bronchitis, laxative diuretic, rubefacient, and vermifuge , treatment of kidney and bladder complaints and is used both in internally and as rub and steam bath in the treatment of rheumatic affections.\n
+
+5] SALIVA OFFICINALIS-20-Parts-Garden sage-\n
+Tonic for blood and skin, antiseptic, it is also used for digestive problems, including loss of appetite, gas, stomach pains, diarrhea, bloating and heart burn, for depression and memory loss.\n
+
+6] SALIVA SCLAREA-10-Parts-Clay wort-\n
+It is powerful relaxant for stress, fatigue, menstrual disorders, digestive problems, as a tonic, an antispasmodic, anti-inflammatory, antibacterial.\n
+
+7] ERVUM LENS-10-Parts-Lentil-\n
+Gout, inflammation, increase body weight, promote lactation, compresses used for boils, abscesses and wounds.\nn
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

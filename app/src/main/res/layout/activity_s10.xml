@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scrofoloso.s10">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layouts10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="scrofulous S-10"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+   android:text="It is main remedy of digestive system. It acts on gastric indigestion, cholera, epilepsy, diarrhea, influenza, nausea, vomiting.The first of S10 is on all organs of digestive system. The application S10 in all type of digestive system diseases is specially beneficial.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="•Lymphatic or metabolic and digestive remedy.
+•S10 is most important remedy of Scrofoloso group.
+•It is known as LIFE SAVING REMEDY.
+•S10 cures many patients of cholera.
+•It starts their actions from lymph and blood during terrible epidemic cholera.
+•This remedy acts upon each and every organ and system of our body.
+•Control the body functions through sympathetic nervous system.
+•S10 is all kind of disorders intestines and large intestine.
+•Influence on blood vessels. Maintenance of intestinal secretions.
+•Diarrhea, dysentery, both conditions decrease the intestinal secretions.
+•S10 is for lower intestinal tract, which includes intestine, rectum and anus.
+•Disorders of cerebellum, epilepsy, chorea, gastric spam and colic.
+•It acts up on liver and gall bladder. And its inflammatory conditions also jaundice.
+•Dry nervous spasmodic cough, gastric disorders.
+•Maintains the factions of skin with S3. Hyperidrosis and dry skin.
+•S10 in lower dill stimulates activities of body cells and tissue.
+•S10 in higher dill decrease activities of body cells and tissue.
+•Act on hypothalamus of brain. Pyrexia with Feb and Verm1 with electricity.
+•Liver, pancreas, spleen and kidneys. Manage solar plexus.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="1]  SCROFULARIA NODOSA-20-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present. HODGKINS DISEASE [A cancer of lymphatic system, which is part of our immune system]. A valuable skin remedy. Has a specific affinity for the breast, very useful in breast tumors. Eczema of ears Pruritis vagina . Lupoid ulceration of pharynx. Scrofulous swelling, painful hemorrhoids Tubercular testis, Epithelioma, enlarge small lymph nodes in the breasts, Pain in all flexor muscles. Blood cleansing tonic, Diuretic, Poultice apply for Gangrene, swollen lymph glands Psoriasis Boils, Small wounds.
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+          android:text="2] SALIX  ALBA-20-Parts-\n
+	Stem- used as pain killer, reduce fever. Willow bark extracts used for sore throat, heart burn, food poisoning. It is used for pains, including headache muscle pain, menstrual cramps, rheumatoid arthritis, osteoarthritis, gout and diseases of spine. leaves- for nervous insomnia and are added to bath to ease."
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="3]COCHLARIA OFFICINALIS-10-Parts-Water Cress/Scruvy Grass-\n
+            Antiscorbutic, Appetizer and digestive, Diuretic and Depurative, Rubefacient i.e .attract the blood towards the skin, thus reducing the congestion of internal organs, blood purifier ,skin irritation.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="4] CETRARIA ISLANDICA-10-Parts-Island moss-\n
+	It is used as expectorant, pectoral, anti-tussive, antitubercular, antiemetic during pregnancy. For treating irritation of mouth and throat, loss of appetite, common cold, dry cough, bronchitis, kidney and bladder complaint, and the tendency towards infection. Externally, it is used in the treatment of boils, vaginal discharge and impetigo.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+android:text="5] CINCHONA SUCCIRUBA-10-Parts-\n
+Cinchona is used for increasing appetite, promoting the release of digestive juice, and treating bloating, fullness, and other stomach problems. It is also used for fever, hair loss, blood vessel disorders including hemorrhoids, varicose veins, and leg cramps.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+           android:text="6] BERBIRIS VULGARIS-1O-Parts-Berberry-\n
+             Acts on the venous system. Producing pelvic engorgement, Hepatic and  Rheumatic affections particularly with urinary. Hemorrhoidal and Menstrual complaints, Old gouty constitutions. Pain in region of kidney is mostly marked. Gall stone, Vesical catarrh. It was also marked action on Liver, promoting flow of bile.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="7] AESCULUS HIPPOCASTANUM-10-Parts-\n
+	Stimulating effects on blood circulation, cells. Powerful action on venous system and blood circulation. Infusion compress use for varicose vein in legs, Thrombophlebitis. Hemorrhoids, Prostate. Use in cosmetics for soothing and protecting skin.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="8]HYDRASTIS CANADENSIS- 10-Golden Seal/Spoon Worts-\n
+            Acts especially on mucus membrane. The catarrh may be everywhere-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old people . Weak muscular power, poor digestion and obstinate constipation, lumbago. It’s action on liver is marked. Cancer and cancerous state before ulceration.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textViewd19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="9] NASTURTIUM OFFICINALIS-10-Parts-Water cress-\n
+ 	 Used for UTI , swollen airways, Cough and Bronchitis, Diuretic, Expectorant, Prevent Scurvy, cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS. It’s high content of VITAMIN C makes it is a remedy i.e.perticurlarly valuable for chronic illness.\n
+10] ERYTHRAEA CENTAURIUM-10-Parts-\n
+	It acts on digestive system. It has been used to kill worms, to treat drops, as a sedative, to treat snake bite and other wounds, and topically used for freckles and spots.\n
+   11] SMILAX MEDICA-10-Parts-Sarsaparilla-\n
+ Rheumatism, Arthritis, Renal calculi, Nephritis, Influenza, Lack off appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, kidney diseases.\n
+12] CINCHONA CALISAYA-10-Parts-\n
+	It is used for malaria, neuralgia, muscle cramps and cardiac fibrillation. Cold and influenza, the liquid extract is useful as a cure for drunkenness, febrifuge, appetizer, for hair loss.\n
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

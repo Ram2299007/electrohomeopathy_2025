@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c3">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCEROSO-3"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+ android:text="Its action resembles that of mixture of C1 and C2. It is a remedy of bone and cartilage, like nose, ear, finger nails, and all type of joints. It is good medicine for cancer of lips, breast, skin and cartilage, ulcers, chronic catarrh, coxalgia, cysts, dislocation of joints of hands and feet, either through rheumatic affection or dislocation, ringworm, curvature of spine.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="•Tissue / glandular or anti degenerative remedies.
+•For skin and its appendages.
+•Acts up on cutaneous and subcutaneous cellular and glandular structures.
+•Degenerative skin lesions, extra growths in lupus, warts, moles,
+•Unhealed open degenerated ulcers, gangrene, necrosis, lepromas, leprosy.
+•Cancerous growths of skin as well as diseases of cartilages and muscles.
+•Acne, pimples, black heads
+•Bone or cartilages C3 + C4 and GE.
+•C3 in lower dill increase the cutaneous and glandular secretions and cure dryness of skin, and in higher dill decrease or relax functions of skin and glandular structures, so cure moist eczema.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+android:text="1] RHUS TOXICODENDRON-60-Parts-Poison ivy-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc. Producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+
+2] CONIUM MACULATUM-20-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+3] DAPHENE MAZEREON-20-Parts-\n
+Use as antiseptic, it has been used in an ointment to induce discharge in indolent ulcers, beneficial effect upon rheumatic joints, to treat fever, intestinal problems, toxic seeds expel worms.\n
+
+4] VINCETOXICUM OFFICINALIS-10-Parts-Sage-\n
+Antioxidant, antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin, induce vomiting, purgative, antitumor, snake bite etc.\n
+.
+
+5] PIMPENELLA SAXIFRAGA-10-Parts-\n
+Used for upper respiratory tract infections, urinary tract infections, diuretic, kidney and bladder stone, calms nervous excitation, to helps digestion.\n
+
+6] SEMPERVIVUM TECTORUM-10-Parts-houseleekIs\n
+recommended for herpes zoster, and cancerous tumors. Scirrhous induration of tongue. Mammary carcinoma, ring worms, hemorrhoids. Houseleek simultaneously tightens and softens the skin. Externally the plant is used for a variety of skin conditions.\n
+"          android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

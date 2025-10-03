@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scrofoloso.s1">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutS1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="scrofulous S-1- Temperament: Lymphatic"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+   android:text="                  This is the first remedy of scrofulous group. It is also called universal remedy. It is best adapted to person of lymphatic temperament, and to those of any other temperament who are subjected to glandular enlargement and phlegm nous inflammations. First effect of S1 is on stomach and then lymphatic system. Like other remedies, scrofulous seems to have a double action, one upon the constitution and upon special local conditions. In treating complex complaints, it is well to give the remedy in two forms-in dilution to act upon constitution and in massive dose to act upon the special local disorders When for instance, indigestion is complicated with herpetic, rheumatic, or gouty diathesis, a massive dose may be given at meal-time to correct the disorders of the digestive system; and the remedy may be taken in dilution during the day to constitutional diathesis.
+        The various dilutions of scrofulous have their own peculiar effects. The first dilution should be used in acute cases, the second dilution in chronic cases, and the third dilution is often necessary in the treatment of nervous disorders, such as hysteria or epilepsy.
+         It  is generally useful in loss of appetite, arthritis, ascites, asthma paralysis of the bladder, boils, tumors or caries of bones, inflammation of brain Bright’s disease, cataract,  cephalon meningitis, chills, chlorosis, cholera, cold in head convulsions, Coryza, cough, cramps in legs, cystitis, deafness, diarrhea, drunkenness, idiocy, impotence, etc.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+  android:text="   It is universal remedy
+•Lymphatic or metabolic and digestive remedy.
+•Best remedy for disorders of stomach, small intestine and lymphatic system.
+•Impurities of lymph and blood. It cures more than 90% of diseases.
+•Best and strong anti-toxic remedy. Detox the toxin of alcohol and nicotine, Nervous digestion,
+•Maintain metabolic activities. Promote vital energy.
+•Improve body immune system.
+•Disorders of upper gastro intestinal tract especially stomach.
+•Prevent epidemic and endemic form of disease.
+•Gastritis, dyspepsia, flatulence, gastro-intestinal catarrh, addiction of tea, tobacco, coffee Loss of appetite, Malnutrition disorders, Fat burner
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+       android:text="1]COCHLARIA OFFICINALIS-10-Parts-Water Cress/Scurvy Grass-\n
+            Antiscorbutic, Appetizer and digestive, Diuretic and Depurative, Rubefacient i.e. attract the blood towards the skin, thus reducing the congestion of internal organs, blood purifier, and skin irritation
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="2]HYDRASTIS CANADENSIS-10-Golden Seal/Spoon Worts-\n
+            Acts specially on mucus membrane. The catarrh may be ever where-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lumbago. It’s action on liver is marked. Cancer and cancerous state before ulceration, when pain is in principle symptoms. Goiter of  puberty and pregnancy."
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="3] SCROFULARIA NODOSA-10-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present. HODGKINS DISEASE [A cancer of lymphatic system, which is part of our immune system]. A valuable skin remedy. Has a specific affinity for the breast, very useful in breast tumors. Eczema of ears, Pruritis vagina. Lupoid ulceration of pharynx. Scrofulous swelling, painful hemorrhoids, Tubercular testis, Epithelioma, multiple nodular swelling in the breasts, Pain in all flexor muscles.  Blood cleansing tonic, Diuretic, Poultice apply for Gangrene, swollen lymph glands Psoriasis, Boils, Small wounds.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="4] NASTURTIUM OFFICINALIS-10-Parts-Water cress-
+           Used for UTI , swollen airways, Cough and Bronchitis, Diuretic, Expectorant ,Prevent Scurvy ,cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS. It’s high content of VITAMIN C makes it is a remedy i.e., particularly valuable for chronic illness.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+    android:text="5] TUSSILAGO FARFARA-10-Parts-Colt’s foot-\n
+           For Bronchitis, Asthma, whooping cough, Lung cancer, Emphysema, Inflammation, Rheumatism, Swelling Water retention and Tuberculosis. Leaves reach in VITAMIN C and ZINK.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+     android:text="6] SMILAX MEDICA-10-Parts-Sarsaparilla-
+            Rheumatism, Arthritis, Renal calculi, Nephritis, Influenza, Lack of appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, kidney diseases."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="7] VERONICA OFFICINALIS-10-Parts-Speed well-\n
+            Used as a tonic, to cause sweating, to purify blood and to increase metabolism, Invigorating, Appetizer and Digestive, Expectorant, Diuretic, Depurative, Pharyngitis, Bronchitis, Catarrh, Cough.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="8] MATRICARIA CHAMOMILLA-10-Parts-Chamomile-\n
+            Soothe Nervous stress, Digestive problems, Ulcerated or inflamed bowel. Excess intake, weak stomach muscles. It is also used as a mild laxative and is anti-inflammatory, Bactericidal.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textViewd19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+           android:text="9] NUX VOMICA-10-Parts-Vomitting nut-
+	Digestive tonic, menstrual problems, paralysis, rabies, erectile dysfunction [impotence], used in rat poison. 
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+
+</ScrollView>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".Fragments.callsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CountIntroduction1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/cardback2"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Count Ceaser Mattie"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Temperament"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/temp1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+           android:layout_marginTop="5dp"
+            android:background="@drawable/cardback2"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Temperament"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/EhRemedy"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/temp2"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cardback2"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Eh Remedy"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/ExternalApplication"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cardback2"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="External Application"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TypesOfDilution"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+           android:layout_marginTop="5dp"
+            android:background="@drawable/cardback2"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Types of Dilution"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/AtoZdiseases"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cardback2"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="A to Z diseases and Treatment"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/CancerAndEh"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+           android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/cardback2"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Cancer and EH"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+
+</ScrollView>

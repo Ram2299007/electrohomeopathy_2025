@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scrofoloso.s2">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layouts2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="Scrofoloso 2 (S2)
+"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+   android:text="It cures all types of digestive disorders, Renal calculus, UTI, Arthritis, Gastritis. Gall stone colic. It is also called as bladder remedy. First effect of S2 is on Urinary Bladder, after that it is especially beneficial for all types of pneumatic organs diseases like stomach, kidney, gall bladder, intestine, mammary gland. S2 is same as S1 only one plant is replaced and lycopodium clavatum is added in this combination but their percentage of part used is different.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="•Lymphatic or metabolic and digestive remedy. \n
+•S2 is specific for urinary system especially for urinary bladder. \n
+•First action of S2 is urinary bladder and secondary actions are other parts of urinary system, as on urethra, ureters and kidneys. \n
+•S2 functional disorders of bladder and C2 is specific for structural disorders of bladder, renal insufficiencies functions of bladder, diabetes, or renal failure.\n
+•Diseases of liver and gall bladder with gastric disturbance. \n
+•Maintain the gastric functions, maintenance of secretions of bile, disorders of GIT.\n
+•Influenced up on glands of stomach, regulate the secretions of glands of stomach and intestine. \n
+Promote bile, Gall stone, Urinary stone, Heartburns, Flatulence
+Hormone regulation in Female
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="1] NASTURTIUM OFFICINALIS-25-Parts-Water cress-\n
+           Used for UTI, swollen airways, Cough and Bronchitis, Diuretic, Expectorant, Prevent Scurvy, cleans the blood and skin. Water cress is very rich in VITAMINS and MINERALS. Its high content of VITAMIN C makes it is a remedy i.e., particularly valuable for chronic illness."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+    android:text=" 2] SCROFULARIA NODOSA-25-Parts-Figwort-\n
+           A powerful medicine whenever enlarge glands are present. HODGKINS DISEASE [A cancer of lymphatic system, which is part of our immune system]. A valuable skin remedy. Has a specific affinity for the breast, very useful in breast tumors. Eczema of ears Pruritis vagina. Lupoid ulceration of pharynx. Scrofulous swelling, painful hemorrhoids, Tubercular testis, Epithelioma, multiple small lymph nodes in the breasts, Pain in all flexor muscles.  Blood cleansing tonic, Diuretic, Poultice apply for Gangrene, swollen lymph glands Psoriasis, Boils, Small wounds.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="3] SMILAX MEDICA-15-Parts-Sarsaparilla-\n
+            Rheumatism, Arthritis, Renal calculi, Nephritis, influenzas, Lack of appetite, Poor digestion, Acne and Eczema. Psoriasis and skin diseases, kidney diseases.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="4]HYDRASTIS CANADENSIS-15-Golden Seal/Spoon Worts-\n
+            Acts specially on mucus membrane. The catarrh may be ever where-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge. Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lumbago. It’s action on liver is marked. Cancer and cancerous state before ulceration when pain is in principal symptoms. Goiter of puberty and pregnancy.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="33dp"
+  android:text="5] TUSSILAGO FARFARA-20-Parts-Colts foot-\n
+           For Bronchitis, Asthma, whooping cough, Lung cancer, Emphysema, Inflammation, Rheumatism, Swelling Water retention and Tuberculosis. Leaves reach in VITAMIN C and ZINK
+"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+         android:text="6] MATRICARIA CHAMOMILLA-10-Parts-Chamomile-\n
+            Soothe Nervous stress, Digestive problems ,Ulcerated or inflamed bowel. Excess intake, weak stomach muscles. It is also used as a mild laxative and is anti-inflammatory, Bactericidal.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="7] VERONICA OFFICINALIS-10-Parts-Speed well-\n
+            Used as a tonic, to cause sweating, to purify blood and to increase metabolism, Invigorating, Appetizer and Digestive, Expectorant, Diuretic, Depurative, Pharyngitis, Bronchitis, Catarrh, Cough.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="9] LYCOPODIUM CLAVATUM-5-Parts-Club moss-\n
+            Gastritis, Urinary disorders, Antispasmodic, Sedative, Wounds and Eczema. Earache, Sore throat, Digestive disorders, Hepatitis, Prostatitis. The remedy acts on soft tissue, blood vesicles, bones, joints, liver and Heart.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+
+
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

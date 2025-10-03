@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patroales.P3">
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutp3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="PETTORALE-3"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+      android:text="The gentle of all, therefore best suited to children and female. Used for bronchial cararrh [acute and chronic , children’s chest complaints, all kinds of cough, cough with yellowish expectoration and cold in the head, pains in the chest.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+  android:text="•Especially for Children and Females
+•Reparatory, pectoral remedies. 
+•P3 acts up on windpipe, trachea, larynx and nasal mucosa. 
+•Mainly prescribed soft natured and weak physic persons. 
+•It also acts as supportive remedy with P1 
+•P3 specially use in case of productive spasmodic cough, asthma, with sever dyspnoea, and cough with expectoration.
+•Diphtheria or whooping cough P3 + C13 + A3 + WE or YE
+Inflammation in wind pipe. Asthma in children. Whooping cough.
+
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="1] PHELANDRIUM AQUATICAM-30-Parts-Water Dropwort-\n
+The respiratory symptoms are most important, and have been frequently verified clinically. A very good remedy for the offensive expectoration and cough in pthisis, bronchitis and emphysema. Tuberculosis, affecting generally in middle lobes, haemoptysis, hectic and colliquative diarrhea.\n
+
+2] DROSERA ROTUNDIFOIA-30-Parts-Sendew-\n
+Affects markedly the respiratory organs and was pointed out as the principal remedy for whooping cough.Dorsa can break down resistance to tubercle and should therefore be capable of raising it. Laryngeal pthisis, vomiting of food from coughing with gastric irritation and profuse expectoration. Pains about hip joint, tubercular glands, anti-tissue, antibiotic,antispasmodic.\n
+
+3] ADIANTHUM CAPIL VENERIS-20-Parts-Maiden Hair-\n
+For dry cough, caused by irritation of upper airways, acute and chronic bronchitis, uterine antispasmodic, dysmenorrhoea, strengthens hair.\n
+
+4] ALLIUM CEPA-10-Parts-Onion-\n
+Coryza, with acrid nasal discharge, antibiotic against skin infection, mycolitic, and anti-inflammatory for expectorant and the pectoral, high BP, obesity, \nrheumatism, kidney diseases, chronic hepatitis, fatty degeneration of liver, stimulate hair grow, acne, sooths and makes skin more beautiful.\n
+
+5] IPECACUANHA UROGOGA-10-Parts-Ipecac-root-\n
+The chief action is on the ramifications of the pneumogastric nerve, producing spasmodic irritation in the chest and stomach. Use for bronchitis associated with croup in children, a severe kind of diarrhea and cancer. Especially indicated in fat children and adults, who are feeble and catch cold in relaxing atmosphere; warm, moist weather. Spasmodic affections.\n
+
+6] EUCALYPTUS GLOBULUS-10-Parts-Blue Gum Tree-\n
+It is a powerful antiseptic and destructive to low forms of life, a stimulating expectorant and an efficient diaphoretic. Atonic dyspepsia, gastric and intestinal catarrh. A remedy with marked effects on catarrhal processes, malaria and intestinal disturbances. Influenza, producing dieresis and great increase of urea. Hemorrhages internally and locally, typhoid, symptoms of exhaustion and toxemia. Conditions of the mucous surfaces of the air passages, genitor urinary organs, and GI tract. A gastro-intestinal irritant with pain in stomach.\n
+
+7] POLYGALA AMARA-10-Parts-Bitter Milk Wort-\n
+Anti-tussive, acts on respiratory system, including chronic bronchitis, bronchial asthma, and convulsive cough, whooping cough.\n
+
+8] HYOSCYMUS NIGER-10-Parts-henbane-\n
+Muscular twitching, spasmodic affections, analgesic, narcotic, non-inflammatory cerebral activity, asthma, toothache, ointment for rheumatism and gout.\n
+"          android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

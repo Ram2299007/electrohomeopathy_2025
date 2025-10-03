@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electricity.GE">
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutGe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="GREEN ELECTRICITY-[ -VE ]"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+      android:text="This has attained special renown because of its remarkable power of dispelling lancinating pain in cancers, sores, ulcers, etc. It is also useful in allying articular pains. It has the power of promoting cauterization. It has been found valuable for coryza in inhalation. It is use for decomposition, cancer, gangrene, pyuria, swelling, degeneration of bones. It has used both internally and externally.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+    android:text="•Acts up on nerves of veins, venous structure and right side of heart.
+•Used in diseases of veins, cardiac disorders.
+•Varicosity of veins, varicose ulcers, phlebitis, venous congestion and hemorrhoids with warts or fissures.
+•Strong germicidal, so degenerative ulcers, open wounds, infections, dermatosis with pyoderma, hemorrhoids.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+      android:text="1] POPULUS ALBUS-20-white Polar-\n
+It is used internally in the treatment of gout, rheumatism, arthritis, low back pains, urinary problems,
+digestive and liver disorders, loss of appetite, hemorrhoids, menstrual cramps, heal wounds, expectorant.\n
+
+2] POPULUS TRIMUOIDS-20-Parts-Trumbling Popular-\n
+Dyspepsia and catarrh of the bladder, especially in old people. Good remedy in vesicle trouble and
+pregnancy, cystitis, expectorant, anti-inflammatory, and febrifuge, rheumatism, menstrual cramps.\n
+
+3] ERVUM LENS-20-Parts-Lentil-\n
+Gout, inflammation, increase body weight, promote lactation, compresses used for boils, abscesses and wounds.\n
+
+4]HAMAMELIS VERGINIANA-20-Parts-Which Hazel-\n
+Venus congestion, hemorrhages, varicose veins and hemorrhoids, bruises, menopausal disorders.
+Compress is used for skin to attractive blood flow, also for dermatitis, dry skin, eye washing use for eye sedative. Great value in open and painful wounds.\n
+
+5] ALTHEA OFFICINALIS-10-Parts-Marshmallow-\n
+It is used in constipation, inflammation of stomach, stomach ulcer, colitis, gastroenteritis, mucus membrane irritation, digestive. It is also used in children, when teeth are erupting.\n
+
+6] CONIUM MACULATUM-10-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+7] SAMBUCUS NIGRA-10-Parts-Europen Elder-\n
+For cold, hay fever, sore throat, arthritis, epilepsy, mild laxative, treat fracture and muscle spasm,
+antioxidant.\n
+
+8] PHYTOLACCA DECANDRA-10-Parts-Poke Root-\n
+Pre-eminently a glandular remedy. Anti-inflammatory for swollen throat and tonsils, sensation of a lump in throat, pains in ear on swallowing, teething children. Mastitis, tumors of the breasts with enlarged axillary glands. Cancer of breast, breast is hard, painful. Purgative, narcotic, expel catarrh.\n
+
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

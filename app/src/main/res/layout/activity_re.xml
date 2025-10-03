@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electricity.RE">
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutre">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="RED ELECTRICITY-[+VE]"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="                  This is the first remedy of scrofulous group. It is also called universal remedy. It is best adapted to person of lymphatic temperament, and to those of any other temperament who are subjected to glandular enlargement and phlegm nous inflammations. First effect of S1 is on stomach and then lymphatic system. Like other remedies, scrofulous seems to have a double action, one upon the constitution and upon special local conditions. In treating complex complaints, it is well to give the remedy in two forms-in dilution to act upon constitution and in massive dose to act upon the special local disorders When for instance, indigestion is complicated with herpetic, rheumatic, or gouty diathesis, a massive dose may be given at meal-time to correct the disorders of the digestive system; and the remedy may be taken in dilution during the day to constitutional diathesis.
+        The various dilutions of scrofulous have their own peculiar effects. The first dilution should be used in acute cases, the second dilution in chronic cases, and the third dilution is often necessary in the treatment of nervous disorders, such as hysteria or epilepsy.
+         It  is generally useful in loss of appetite, arthritis, ascites, asthma paralysis of the bladder, boils, tumors or caries of bones, inflammation of brain Bright’s disease, cataract,  cephalon meningitis, chills, chlorosis, cholera, cold in head convulsions, Coryza, cough, cramps in legs, cystitis, deafness, diarrhea, drunkenness, idiocy, impotence, etc.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+ android:text="•Acts upon motor spinal nerves, sensory spinal nervous, and cerebral nervous system including brain.
+•Stimulates the body functions, and increase the body activities of body organs. Also give strength of organs and systems.
+•Acts upon pineal gland, promotes it’s the activities, promotes the growth especially the children.
+•Gout, rheumatism, hypotension, hypopyrexia, paralysis, trigeminal neuralgia, paraplegia, hemiplegia especially of right side.
+•Cold and calmly skin with numbness, chorea, sluggish activities of glandular structures, sprain.
+•Stimulates the process of granulation incase of wound, ulcers and external or internal injuries.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="1] RHODODENDRON FERRUGINEUM-30-Parts-Snow-RoseRheumatic\n
+and gouty symptoms well marked. Rheumatism in the hot season, stiffness of neck, pains in shoulder, arms, wrists, pains in bones, anti-neuralgic, diuretic. Testicles, worse left, swollen, painful, drawn up, orchitis.\n
+
+2] ROSMARINUS OFFICINALIS-30-Parts-Rosemary-\n
+It is used for muscle pain, improve memory, stimulates circulatory and immune system. Promote hair growth, ease aching joints by increase blood supply.\n
+
+3] ROSA CANINA-20Parts- Dog-rose-\n
+Ophthalmic, astringent, carminative, diuretic, laxative, tonic, also for colds, influenza, minor infectious diseases, scurvy, diarrhea and gastritis.\n
+
+4] ACONITUM NAPELLUS-20-Parts-Monkshood-\n
+A state of fear, anxiety, anguish of mind and body. Physical and mental restlessness, fright, is the most characteristic manifestation of aconite. Acute, sudden, and violent invasion, with fear, Call for it. First remedy in \ninflammations, inflammatory fevers. Serous membrane and muscular tissue affected markedly. Burning in internal parts, tingling, coldness, and numbness. Tension of arteries, emotional and physical mental tension explain many symptoms. Aconite causes only functional disturbances, no evidence that it can produce tissue change. Its action is brief and shows no periodicity. Its sphere is in the beginning of an acute disease and not to be continued after pathological changes comes. used for chronic neuralgic pains, especially trigeminal nerve, witch affect the face, sciatic nerve, to cure drug addiction.
+
+5] VITIS VINIFERA-20-Parts-Grape/Wine-\n
+Anti-inflammatory, astringent, throat infection, powerful antioxidant, laxative, stomatic, diuretic, varicose veins, haemorrhoids.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c13">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc13">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCEROSO-13-DOMFIN"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+    android:text="
+This is the remedy of throat. It is chiefly used for tonsils, pharynx, larynx. It is medicine of diphtheria. It has also good effect on intestine. It acts on throat and intestine cancer, gastric ulcers, swollen eyes, photophobia, ear pain, sneezing and acute coryza.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+  android:text="•Tissue / glandular or anti degenerative remedies.
+•For throat, larynx, pharynx and vocal cord.
+•Best remedy for catarrh, pharynx, larynx, nose, coryza, or influenza.
+•Dysphagia, dysphonia, aphonia, hoarseness of voice, sore throat and inflammatory lesions of larynx and pharynx.
+•First drug of choice in degenerative or cancerous growths of throat or its appendages.
+•Diphtheria, which is caused by bacterial infection, throat pain.
+•Tonsillitis, diphtheria, sore throat, pharyngitis, laryngitis and stomatitis.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="1] RHUS TOXICODENDRON-25-Parts-Poison ivy-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc. Producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+
+2] VINCETOXICUM OFFICINALIS-20-Parts-Sage-\n
+Antioxidant, antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin, induce vomiting, purgative, antitumor, snake bite etc.\n
+
+3] AILANTHUS GLANDULOSA-20-Parts-\n
+It is used in low fevers, low type of eruptive disease, diphtheria, follicular tonsillitis, streptococcus infections, hemorrhagic diathesis, etc. Diarrhea, dysentery and great weakness are very marked. Anti-emetic action, asthma, cramps, epilepsy, fast heart rate, gonorrhea, syphilis, tape worms.\n
+
+4] CONIUM MACULATUM-15-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory , sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+
+5] ATROPA BELLADONA-10-Parts-\n
+Belladona acts upon every part of the nervous system, producing active congestion, furious excitement, prevented special sense, twitching, convulsion and pains. It has marked action on skin and glands. Belladonna always associated with, hot, red skin, flushed face, glaring eyes thrombin carotids, mental state, restless sleep, convulsive movements, dryness of mouth and throat with aversion to water, neuralgic pains that come and go suddenly. Great children’s remedy. Mydriatic – produces dilatation of pupils.\n
+
+6] PIMPENELLA SAXIFRAGA-10-Parts-\n
+Used for upper respiratory tract infections, urinary tract infections, diuretic, kidney and bladder stone, calms nervous excitation, to helps digestion.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+       
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

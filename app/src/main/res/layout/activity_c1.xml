@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c1">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCEROSO-1"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="
+The Canceroso remedies belongs to the same category as the scrofulous, but have a more powerful action. They are used in cases which resist the action of scrofulous, such as old abscesses, cirrhosis and other cancerous tumors. They are required whenever there is induration or suppuration, or wherever the scrofulous or Angiotico fail to produce the desired effect. The first dilution tends to eliminate the morbid principle its expulsive power is so great than that in certain cases it must be used care. When an abscess is forming the first dilution should be used to hasten suppuration, but when suppuration has begun the second is required. On some organs of body, such as the uterus, the Canceroso exert a peculiarly strong influence, and is often needful, when treating disease of these organs, to use third dilution rather than either second or first.
+                                  C1 is used in abscess of mammary gland, amenorrhea, bladder diseases, diseases of bones, breast, bronchial catarrh. Cancer of the anus, breast, intestine, lips, liver, nose, skin, stomach, tongue, uterus, etc. carbuncles, caries of teeth and bones, cataract, catarrh[uterine, pulmonary, chronic], cerebral congestion with vertigo, ovarian cyst, diabetes, diphtheria, displacement of the womb, fistula, gangrene, gastritis, disorders of generative system in both sexes, glandular laryngitis, goiter with S5, gout in the great toe with heat and redness of the skin, gouty tumors, hysteric attacks, inflammation of the gums, nipple, parotid gland, prostate gland, rectum or testes, painful or prolonged Laboure, atrophy or hypertrophy of prostate, prostatitis, tuberculosis of bones.
+"       android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="Women s Tonic in all problems and Hormonal Disorder
+•Tissue / glandular or anti degenerative remedies. 
+•C1 is most extensive and universal on the entire sphere of glands, lymph absorbent vessels, salivary glands, mucous membranes, serous membranes, especially of throat, male and female genitals subcutaneous and cutaneous cellular and tissue structure. 
+•C1 is specific for ulcers, indurations, catarrh of pharynx, vagina, uterus, throat, nose, ear and eyes. Acute chronic skin eruptions, leucorrhea, menstrual disorders.
+•For physiological and pathological changes, during reproductive age, and after menopause. 
+•C1 is first choice for abortions, promote growth of child. (higher dill once in day).
+•For easy delivery C1 in 1stdill 2-3 in a day starts in 9thmonth. Painless delivery.
+•Mental and physical disorders, lack of sexual interest.
+•It is best remedy for catarrhal symptoms and is leucorrhea, otorrhoea, bland coryza, and laryngeal or pharyngeal catarrh. 
+•Carcinoma of breast and uterus. 
+•Fistula and degenerative diseases, especially female and male genital and reproductive organs. 
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="•For glandular degenerations,
+•C1 in lower dill stimulate the mucosal and glandular secretions.
+•C1 in higher dill decrease the secretions of mucosal surface and glandular structures. 
+•Dryness of virginain lower dill, and leucorrhea in higher dill.
+•Malignant growth of lips, stomach, breast, and intestine. 
+Poly cystic ovarian syndrome and female Fertility 
+Menopause relief and Hot flushes 
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+           android:text="1] CAULOPHYLLUM-20-Parts-blue cohosh-\n
+This is a woman remedy. Want to tonicity to the womb. During labor, when the pains are deficient and the patient is exhausted and fretful. Besides, it has a special affinity for the smaller joints. Thrush, locally and internally. Extraordinary rigidity of os. Spasmodic and severe pains, which in all directions, shivering without progress, false pains. Revives labor pains and furthers progress of labor. Leucorrhea, with moth-spots on forehead. Habitual abortion from uterine debility. Needle like pains in cervix, dysmenorrhea, with pains flying to other parts of body.\n
+
+2] RHUS TOXICODENDRON-20-Parts-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc., producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+
+3] CONIUM MACULATUM-10-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+4] VINCETOXICUM OFFICINALIS-10-Parts-Sage-\n
+Antioxidant, antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin, induce vomiting, purgative, antitumor, snake bite etc.\n
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

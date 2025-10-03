@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angitico.A1">
+
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layouta1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="A-1"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="This is remedy of sanguine temperament. It is effective on arterial system of heart and whole body, and left side of heart. It is used to treat blood circulation of body or of any special organ. A-1 and C-1 in all types of disturbances of menstrual cycle. In any case to stop bleeding A-1 is used. It is used in cerebral congestion, cough, cystitis, cardiac dropsy, dysentery, encephalitis, epistaxis. Gouty inflammation with swelling, hematuria, hemorrhage, hemorrhoids, mental disorders, neuralgia, paralysis, piles, pleurisy, rheumatic affections, sore throat, spitting of blood, sunstroke, swelling of the feet, typhoid fever, vertigo, wounds.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+ android:text="•Circulatory remedies.
+•Left side of heart, arterial structure, components of blood.
+•Circulation of blood, maintenance of blood flow.
+•Lower dill used in anemia, ischemia, coldness, numbness, hypotension, and hypoxia.
+•Higher dill used in hemorrhages, hypertension, and inflammation and bleeding piles.
+•Purify the blood, liver, kidneys, filter the blood and spleen.
+•Maintenance of blood supply to internal organs.
+•Menstrual disorders with or without anemia. Amenorrhea, increase menstrual period.
+•A1 is bright red colored hemorrhages means in arterial hemorrhage used in higher dill with BE and WE.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="1] CAPSELLA BRUSA PASTORIS-80-Parts-\n
+	It is used in the treatment of nose bleeding and urinary calculus, Hemostatic, oxytocic, infusion is used for uterine hemorrhages, Laboure acceleration, intestinal atony, low blood pressure, compresses used for skin wounds and burn.\n
+2] AVENA SATIVA-20-Parts-\n
+	Has a selective action on brain and nervous system. Nervous exhaustion, sexual debility, and the morphine habit, call for this remedy in material dosage. \nBest tonic for after exhausting diseases. Nerve termers of the aged. Paralysis agitans, epilepsy. Rheumatism of heart. Acute coryza, alcoholism, sleeplessness especially of alcoholics. For sexual impotence, gastritis, colitis and other digestive problems.\n
+3] ARNICA MONTANA-20-Parts-Produces conditions upon the system quite similar to those resulting from injuries, falls blows, contusions, septic conditions, prophylactic of pus infection. After traumatic injuries, over use of any organ, strains. Arnica is deposited to cerebral congestion. Acts best in plethoric, feebly in debilitated with impoverished blood, cardiac dropsy with dyspnea. A muscular tonic. Limbs and body ache as if beaten. Joints as if sprained.  Marked effect on blood. Affects the venous system inducing stasis. Ecchymosis and hemorrhages. Relaxed blood vesicles, black and blue spots. Tendency to hemorrhage and low fever states tendency to tissue degeneration. Abscesses that do not mature. Rheumatism of muscular and tendinous tissue, especially of back and shoulders. Aversion to tobacco. Thrombosis, hematocele.\n
+4]HYDRASTIS CANADENSIS- 10-Golden Seal/Spoon Worts-\n
+            Acts especially on mucus membrane. The catarrh may be everywhere-throat, stomach, uterus, urethra-it is always characterized by this peculiar mucus discharge . Hydrates is especially active in old, easily tired people. Weak muscular power, poor digestion and obstinate constipation, lumbago .It’s action on liver is marked .Cancer and cancerous state before ulceration . \n
+5] SANGUINARIA CANADENSIS-10-Parts-\n
+	It is right sided remedy, and affects chiefly the mucus membrane, especially of the respiratory tract. It has marked Vaso-motor disturbances, as seen in the circumscribed redness of the cheek, flashes of the heat, burning in palms and soles. Burning sensation, like from hot water. Influenzas coughs. Phthisis. Local anesthetic, fever, antibacterial, antiviral.\n
+6] MAIVA SILVESTRIS-5-Parts-Common mallow-\n
+	It contains VITAMIN A B C, flavonoids, essential fatty acids, fiber, calcium, magnesium, Zink, selenium and potassium. Mallow makes excellent soothing demulcent herbs, especially for cases of inflammation, either for the urinary, digestive respiratory system. Some of the most impressive health benefits of malva sylvestris include its ability to speed wound healing, protect against infection, reduce inflammation, reduce sign of aging, improve respiratory health, improve sleep, and treat headaches.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

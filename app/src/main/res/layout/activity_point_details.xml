@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".External_Appication.PointDetails">
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutPD">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="In Electrohomeopathy 45 points are used.
+
+"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="1)  Super-Orbital : \nThe Nerve Point above the eye..
+It is branch of Trigiminal Nerve. It present in the center of eyebrow over the upper potion of orbit on both sides. The nereve supply to eyes , eyelids  and eyebrows…
+@ Useful in dim vission , headace due to eyestrain and in a trigiminal neuralgia in wich opthalmic branch involved
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textVixew8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="2) Sub-Orbital:\n The Nerve point below the eye
+It is branch of trigeminal nerve which located in lower portion of orbit and supplying to lower eyelid ,eyes and base of nose
+@ Useful in eye disease like dim vision and Eyestrain"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textVidxew8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="
+3) Base of Nose :\n This the large branch of trigeminal Nerve which is located at center point of both eyebrow .This nerve supply to both Nostrils
+@ Useful Coryza, snuffled nose, Nasal polyp, Nasal Congestion , Sneezing.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textVidxecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="4) Brachial Nerve:\n This nerve arises from brachial plexus. It runs superficial nerve which locates in upper arm near to skin.
+@ Chief nerve controlling the Arm, wrist and hand
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textVidxdecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="5) Solar Plexus :\N This plexus is important of our body and its largest part distributed behind stomach 
+@ Useful or improve the strength of stomach, Liver, Spleen, Heart, Kidneys, Lungs, and all glandular structures and Major Organs of human body    
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/teDxtVidxdecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="6) Pit of Stomach:\n This point locate at the center of abdomen above umbilicus. This nerve supplying to entire stomach. This nerve related to solar plexus 
+         @.Useful stomach related diseases   "
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teDxtVidxdnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="70 Gastric Sympathetic Nerve : \nThis is a branch of Sympathetic nerve which supply to stomach. This nerve is related to solar plexus 
+       @.Useful stomach related diseases   
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teDxtVidxdnnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="8) Crural Nerve : \nThis is branch of lumbar Nerve pass below the sacrum and divided in to 2 branches ..1 left (Leg) Femoral nerve 2.Right (Leg) Femoral Nerve
+@ Disorders obtained in Lumbo-Sacral region and Thigh apply medicine to this point"
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teDxtVidxdncnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="9.Lungs : \nLungs are located in both side of chest and are nerve supplied by the branch of vagus nerve. 
+@ Apply medicine on this point during disease obtains in Respiratory system."
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teDxtViddxdncnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="10) Angle of Jaw:  \nThis point is located behind as well as front of the Ear..in this region parotid gland is present .From this region trigeminal nerve and Hypoglossal nerve and supply to face and Tongue
+@Apply medicine on this point during … mumps, Trigeminal Neuralgia, mastoiditis and diseases of teeth or gums"
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/teDdxtViddxdncnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="11) Lumbar Region: \nIn this region lumbar plexus is present which to male and female reproductive system and various parts of lower extremities 
+@.. Apply Medicine on this point during … disorders of reproductive organ or disorders of lower extremities."
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/teDdxtViddxddncnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+           android:text="13) Navel: \nThis point is called umbilicus. It is depressed part in the center of abdomen where umbilical cord is present.
+@.. Apply medicine on this point during small intestinal disorders 
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/teDdxtViddxddncdnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+          android:text="14) Great Hypoglossai :\n This is branch of glosso-pharyngeal nerve which are supply to oral cavity , Throat and Palate 
+@... Apply medicine on this point during Speech difficulty and disorders obtain in throat , Palate 
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+
+        <TextView
+            android:id="@+id/teDdxtViddxdsddncdnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+         android:text="15) Arch of the foot: \nit is also called as Anterior posterior arch of foot.
+@...Apply medicine during foot drop, flat foot or club foot conditions 
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/teDsdxtViddxdddncdnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+        android:text="16) Small Hypoglossai :\n This is branch of glosso-pharyngeal nerve which are supply to oral cavity , Throat and Palate 
+@... Apply medicine on this point during Speech difficulty and disorders obtain in throat , Palate 
+\n17. Occipital Nerve: \nThis nerve present behind the Neck. from this region sensory and motor nerves pass and supply to whole body.
+@... Apply medicine on this point during obtain any defect in sensory or Motor nervous system \n
+\n18. Cervical or\n Great Sympathetic nerve : This is center of sympathetic nervous system. Branch of this nerve goes up to 7th vertebrae and supply to heart, lungs, Liver, Kidneys , intestine with blood and Lymph vessels
+@... Apply medicine on this point when any disease obtain in to heart, lungs, Liver, Kidneys , intestine with blood and Lymph vessels    
+\n19. Coccgeal Nerve: \nIt is branch of lumber nerve which is present at the lower portion of spinal cord near coccyx.  and supply to rectum ,anus
+@...Apply medicine on this point if any disease occurs in rectum and Anus related
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/teDdncdnecw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+      android:text="20. Sacral Nerve: \nThis nerve locate in sacral region where vertebral column communicates with hip bone.. This nerve supply to genital organs, bladder and legs
+@... Apply medicine on this point when disease obtain..Impotency, sterility and internal sexual organs   
+
+\n21) Points above and below the Knee joint: \nThis point is located at the anterior aspect of leg which connect to upper leg and lower leg ..i.e. patella
+@ …. Apply medicine on this point during knee joint pain
+\n22) Perineum: \nhis point locates between anus and External genital organs.
+@... Apply Medicine on this point when disease obtain in external genital organ and coccygeal region 
+\n23. Kidneys or Renal Region : \nThese points located at kidney region .branches of solar plexus and Lumbar plexus supply this portion
+@... Apply Medicine on this points during any disease obtain related to kidney disease.
+\n24) Hypochondriac Region: \nThis is upper portion of abdomen ..in this area Gallbladder, Spleen and Pancreases present
+@...Apply medicine on this point when disease occurs in spleen, pancreases, Gallbladderand Liver
+\n25) Pubis: \nThis region is also called hypo gastric region
+@... Apply medicine on this point in case of diseases of uterus, Bladderand Pelvic inflammatory diseases
+
+\n26) Region of Bladder: \nThis point just bellow pubic symphases .In this area Urinary bladder present
+@.. Apply medicine on this point when disease occurred urinary bladder related with prostate 
+
+\n27) Heart: \nThis point located in the left side of chest near the sternum
+@...Apply medicine on this point in heart disease 
+\n28) Ovaries in Women: \nThis point present in only female. Ovaries are 2 which located in lower abdomen
+@.... Apply medicine on this point in the case of sterility or infertility and diseases of ovaries  
+\n29). Cervical Spinal Nerves : \n8 pairs of cervical nerves are travel from this region and supply to throat , Neck ,upper limbs
+@...Apply medicine on this point in cervical Spondilitis, Cervical Sprain 
+\n30. Dorsal Spinal Nerves: \n12 pairs of nerves travel from this region and nerve supply to Back and Ribs
+@...Apply medicine on this point in neuralgia cases and shoulder pain, tiredness in shoulder muscles 
+\n31 .Lumbar Spinal Nerves: \n 5 pairs of nerves travels from this region and nerve supply to buttocks, hip joints
+@...Apply medicine on this point when backache, lumbar sprain 
+\n32. Nerves Ankle Joint: \nThis point locate between lower leg and foot… at the articulation point of tibia, fibula and Talus
+@...Apply medicine on this point in the case of Sprain or disease of foot muscle 
+\n33. Flexor Muscle of Foot: \nThis point locate at the front of foot and flexion of foot
+@..Apply medicine in this point in foot drop or paralysis of foot muscle and sprain, Weakness in foot. 
+\n34. Extensor Muscle of Foot: \nThis point is located at the posterior to the foot and Flexion of foot
+@..Apply medicine in this point in foot drop or paralysis of foot muscle and sprain, Weakness in foot.
+
+\n35. Flexor Muscle of Hand: \nThis point present at palmer side of hand perform flexion of hand
+@...Apply medicine on this point in the condition of weakness of hands muscles, sprain and paralysis of hand 
+\n36. Extensor Muscle of Hand:\n This point present at dorsal side of hand perform flexion of hand
+@...Apply medicine on this point in the condition of weakness of hands muscles, sprain and paralysis of hand 
+\n37). Palebral Muscle of Eyes :\n These muscles are Muscularis orbicularies oculis. This muscle is helpful in blinking of eyelids
+@...Apply medicine on this point in paralysis of eyelids and in case of Ptosis  
+\n38. Temporal Region : \n5th Cranial nerve pass through this region and supply to optic muscles , cornea , iris , and Lens
+@...Apply medicine on this point during disease obtain in optic muscles , cornea , iris , and Lens 
+\n39. Arch of Aorta:  \nIt is proximal part of aorta at the level 4th thoracic vertebrae . A branch of sympathetic nerve supplies arch of aorta which control circulation of blood through aorta
+@...Apply medicine on this point in the case of disease of aorta and aortic aneurysm
+\n40. Fore Head : \nThis point located anterior of head bellow hairline and above to eyebrow. The Trigeminal nerve and ocular nerve spared in this area.
+@...Apply medicine on this point during frontal headache, Trigeminal neuralgia associated with ophthalmic branch involved  
+\n41. Massater Muscle of jaw: \nThese muscles help in mastication
+@...Apply medicine on this point when Lock jaw, Cracking in jaw and falling of jaw
+\n42. Inferior Dental Nerve: \nIt is 3rd branch of 5th pair of cranial nerve which is supply to lower teeth and jaw
+@...Apply Medicine on this point in toothache and Trigeminal neuralgia 
+\n43. Head of the Thigh Bone: \nThis point located at the head of thigh bone with hip bone and hip joint
+@... Apply on this point during hip joint pain or hip joint disease 
+\n44. Vagus of Pheumogastric Nerve: \nIt is 10th branch of cranial nerve which supply to stomach and Lungs , pharynx , Vocal cord and trachea
+@... Apply medicine on this point when obtain stomach and Lungs related diseases 
+\n45. Crown of Head: \nThis point locate at the top of head
+@...Apply medicine on this point in mental disorders or physic disorders
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

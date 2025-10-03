@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpeOfAge.Count">
+
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="Count Ceasre Mattie
+"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/countmattieimg"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+    android:text="Founder of Electrohomeopathy:  Count Ceasre Mattie
+Hi was born on 11th January 1809 in Bologna city is situated in North Italy
+Dr. Count Caesar Mattie Herbalist of Bologna, Italy. He invented the system of Electro Homoeopathy in 1865 with basic theory of COMLEXA COMPLEXIS CURENTUR.
+He died on 3-April 1896 in Roechiate (Riola village) Italy at the age of 87.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+ android:text="
+Fundamental Law: Law of Similarity
+Basic Principal: Complexa-Complexes-Curenture
+Complexa Complexis Curantur means complex diseases are cured through complex drugs (medicines).
+"
+
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+           android:text="Basic Theory: Purification Of Blood and Lymph \n
+Basic Things:   \n
+Od force Theory\n
+Law of Polarity\n
+Temperaments\n
+Source of Medicine …Plant or Vegetable kingdom.
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="Why was the name given Electrohomeopathy?
+"
+
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:text="
+           The name Electro Homoeopathy comes from the Electro content extracted from the plants, and the way this energy is extracted and made into the remedies. Electro Homoeopathy is a name given by the founder, on the basis that those remedies are class of energy conforming to the law of similar and they possess a power and promptness and speed of action of the remedy which allows them to be compared to electricity. Electro is not related to the electricity current and not using any type of electric machine in the treatments. 
+          The word Electrohomeopathy is a combination of three words are (1) Electro, (2) Homeo and (3) Pathy.
+"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+   android:text="Electro: means the Bio-Energy contents extracted from plants which work in the specific manner maintaining the function of organs. \nIt corrects the disorder and results in restoration of the electrical energy level of the cellular system as per low of polarity of the human body.\n
+Homeo: means the equilibrium or balance of energy.\n It works towards homeostasis which is the physical and chemical consistency of the cell. This ensures the accuracy among all the cells so that the body functions at an equilibrium state\n
+Pathy: means system of medicine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="10dp"
+  android:text="
+ i.e. a system of treatment in which biological energy extracts of plants are use for treatment. This extract received by the process named Cohobation Method in which the living energies of the plants in the form of essences obtained from medicinal plants. Each remedy is made of biological energy of several plants so Electropathy / Electrohomeopathy remedies are complex remedies there for some called it COMPLEXA-COMPLEXIS-CURANTURE.
+"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+          android:text="Action of Electrohomeopathy Remedies in various ways"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text=" They improve the digestive powers and so facilitate the supply of necessary elements to lymph and blood.\n
+
+They increase the healthfulness of the cells out of which the body tissues are built up.\n
+
+They give tone and nourishment both to the brain and to the other parts of that complicated and wonderful system of nerves by which all disease are permanently cured.\n
+
+They promote the removal from the system, through the skin and other channels, of morbid and superfluous elements which interfere with bodily health.
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text=" 3. Temperaments "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+          android:text="Advantages Electrohomeopathy:
+"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+  android:text="
+Electrohomeopathy medicines are quietly natural, scientific, nontoxic, harmless and without any side effects on human body.\n
+
+In it complete body system treatment is permanent cure and there is no specific organ and symptom treatment.\n
+
+Antidotes are not required as it is based upon law of Polarity and Similarity.\n
+
+Mistaken overdose doesn’t cause any harm. Any discomfort / problem can be easily and quickly rectified / controlled.\n
+
+These remedies are all extracted from plants, having energetic properties. They produce energy in the body; its action is gentle and sometimes instantaneous, but more generally gradual of such a nature that the results can only be perceived after some minutes.\n
+
+They correct the deficiency or excess to natural proportions and recover the disease speedily, gently, completely and permanently.\n
+
+They do not simply cure the particular disease for which they are prescribed, but at the same time good to the constitution of the patients who uses them.\n
+
+The true remedy gives the extra something, which the body needs. They are non-poisonous and do not create drug disease or leave any bad effects on the body.\n
+
+It is not extremely facilitated and simplified in this way, in the most complicated illness as well, but also it is more economical of what is so important in the present period of necessity.\n
+
+It is especially adapted for universal use as household remedies. No mother dread her child’s life has been endangered because she has taken some of the medicines in error, nor need she ever be haunted by the fear, so often experienced by those who give bromides and other hurtful drugs that may turn out to be worse than the disease.\n
+
+Electrohomeopathy medicines purify the blood and lymph and gives amazing result on the human body in many cases which are said to be incurable in other branches of medicine.\n
+​
+"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

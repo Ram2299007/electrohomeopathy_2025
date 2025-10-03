@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.electricity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/re"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#B71C1C"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Red Electricity"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ye"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/temp1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFD600"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Yellow Electricity"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ge"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/temp2"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/teal_700"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Green-Electricity"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/be"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#304FFE"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Blue-Electricity"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/we"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="White-Electricity"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/app"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pink_very_light"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="APP"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vermifugo.Verm2">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutverm2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="VERMIFUGO-2"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+   android:text="Has a gentle but deeper action than VER-1. Chiefly used as an injection or in ointments and compresses. Used for chronic diposits of microbes, paracytes. It prevents growth of micro-organism."          android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="•Anti-helminthes /anti-biotic and anti-allergic remedies.
+•Ver-2 is gentle, deeper and strong as compare toVer-1.
+•In most of casesVer-1internally and Ver-2 externally.
+•In skin diseaseVer-2+S5+C5+GEorYE.
+Chronic intestinal disorder and Chronic Constipation. Chronic worm diseases and detoxification via intestine.
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+    android:text="1] DICTAMNUS ALBUS-30-Parts-Burning bush-\n
+	It is used for digestive tract disorders including cramps, stomach problems, intestinal worms, urinary tract, and genital tract disorders.\n
+2] CHENOPODIUM ANTHELMINTICUM-30-Parts-\n
+         Characteristic pain in scapula, symptoms of apoplexy, right hemiplegia, and aphasia. Sudden vertigo, meniere’s disease, affections of auditory nerves. Oil of chenopodium for hookworm and round worm.\n
+3] ARTEMISIA CINA-30-Parts-Worm seed-\n
+	Use for the digestive system, liver, gall bladder and blood. The plant is used as febrifuge, expel worms and reduce toxicity of bad poisoning.\n
+  4] ALLIUM SATIVUM-20-Parts-Garlic-\n
+	Acts directly on intestinal mucus membrane, increasing peristalsis. Colitis with pathological flora. Has vasodilatory properties. Arterial hypotension beings usually in 30 to 45 minutes after 20 to 40 drops dose of the tincture. Used for hypertension, hypoglycemic, antibiotic, antiseptic, diarrhea, gastroenteritis, colitis, detoxification. Prevent malignant tumor, cystitis, pylonephritis, expectorant, anti-asthmatic, dyspepsia which cause flatulence, corn remover, specially antibiotic for salmonella, e-coli, shigella, staphylococcus. Weight is gained and sleep becomes regular,  haemoptysis.\n
+5] SPIGELIA-20-Parts-pinkroot-\n
+	Spigelia is an important remedy in pericarditis and other diseases of heart. Has marked elective affinity for the eye, heart and nervous system. Is especially adapted to anaemic, debilitated, rheumatic and scrofulus subjects. Stabbing pains, heart affections and neuralgia. Vermifuge.\n
+6] TANACETUM VULGARE-20-Parts-Tancy-\n
+	Abnormal lassitude, nervous and tired feeling, half dead, half alive feeling’’ all over. Vermifuge. A specific against effects of poison ivy.      \n
+7] RUTA GRAVEOLENCE-10-Parts-Rue-bitterwort-\n
+	Acts upon the periosteum and cartilages, eye and uterus. Complaints from straining flexor tendons especially. Tendency to the formation of deposits in the periosteum, tendons, and about joints, especially wrist. Overstrain of ocular muscles. All parts of the body are painful, as if bruised. Sprains, jaundice, feeling of intense lassitude, weakness and despair, injured bruised bones. It has been also used as stiff neck dizziness, headache, tightness in the stomach, inner ear problems, intestinal worms.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>

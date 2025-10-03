@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondchatdetails"
+    android:background="@color/chats_background"
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/PatientchatsRecyclerview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear5"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="2dp">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linear7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/linear9"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Address_textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+
+            android:text="WEIGHT :"
+            android:textColor="#aa0050"
+
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/Address_etMessage1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+
+            android:hint="Weight of Patient"
+            android:inputType="number"
+            android:padding="5dp"
+
+            android:textSize="18sp"
+            android:textStyle="italic"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/Address_send1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linear8"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear21"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/linear8"
+
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/PC_textView21"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Present Complaints"
+                android:textColor="#aa0050"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+
+            <EditText
+                android:id="@+id/PC_etText21"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+
+                android:background="@drawable/backgroundbox"
+                android:ems="10"
+                android:hint="Enter present complaints"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/PC_send21"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:contentDescription="TODO"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rightarrow"
+                app:tint="#aa0050" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linear8"
+
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/INGN_textView22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="Investigation"
+                android:textColor="#aa0050"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+
+            <EditText
+                android:id="@+id/INGN_etText22"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+
+                android:background="@drawable/backgroundbox"
+                android:ems="10"
+                android:hint="Enter Investigation"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/INGN_send22"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:contentDescription="TODO"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rightarrow"
+                app:tint="#aa0050" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linear8"
+
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/DGSS_textView22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="Diagnosis"
+                android:textColor="#aa0050"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+
+            <EditText
+                android:id="@+id/DGSS_etText22"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+
+                android:background="@drawable/backgroundbox"
+                android:ems="10"
+                android:hint="Enter Diagnosis"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/DGSS_send22"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:contentDescription="TODO"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rightarrow"
+                app:tint="#aa0050" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear24"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/TTMT_textView22"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Treatment"
+                android:textColor="#aa0050"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+
+            <EditText
+                android:id="@+id/TTMT_etText22"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/backgroundbox"
+                android:ems="10"
+                android:hint="Enter Treatment"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                android:text="1) Temperament remedy...\n2) Organ remedy...\n3) Symptomatic remedy...\n4) External Application..."
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+
+            <ImageView
+                android:id="@+id/TTMT_send22"
+                android:layout_width="35dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:contentDescription="TODO"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rightarrow"
+                app:tint="#aa0050" />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear20"
+
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Temp_textView9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Temperament"
+            android:textColor="#aa0050"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+
+        <Spinner
+            android:id="@+id/Temp_etText9"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Gender of Patient"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/Temp_send9"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Payment_textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+
+            android:fontFamily="sans-serif"
+            android:gravity="center|center_horizontal"
+
+            android:text="Pending Payment"
+            android:textColor="#aa0050"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/Payment_etMessage1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:backgroundTint="#FF5722"
+            android:textColor="@color/white"
+
+            android:hint="payment of Patient"
+            android:inputType="number|text"
+            android:padding="5dp"
+
+            android:textStyle="italic"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/payment_send1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/linear7"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Occupation_textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+
+            android:text="B.P. :"
+            android:textColor="#aa0050"
+
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+
+        <EditText
+            android:id="@+id/occupation_etMessage1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Blood Pressure of Patient"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+
+            android:textStyle="italic"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/Occupation_send1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/B.P_textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="SEX :"
+            android:textColor="#aa0050"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+
+        <Spinner
+            android:id="@+id/B.P_etText2"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Gender of Patient"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/B.P_send2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear2"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Weight_textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="AGE :"
+            android:textColor="#aa0050"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/Weight_etMessage3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Age of Patient"
+            android:inputType="number"
+            android:padding="5dp"
+            android:textStyle="italic"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/Weight_send3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear3"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Sex_textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="OCCUPATION :"
+            android:textColor="#aa0050"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+
+        <EditText
+            android:id="@+id/Sex_Spinner"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+
+            android:background="@drawable/backgroundbox"
+
+            android:ems="10"
+            android:hint="Occupation of Patient"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textStyle="bold|italic"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/Sex_send4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/linear9"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Date :"
+            android:textColor="#aa0050"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/Date_etMessage5"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint="Date  and Time"
+            android:inputType="phone"
+            android:padding="5dp"
+            android:text="  "
+            android:textStyle=
+
+                "bold|italic"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etDoctorName2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/etClinicName2"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/etPresentComplaints2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:text="present"
+            android:inputType="textPersonName"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etDiagnosis2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="uufhhsssv"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etInvestigation2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="vfddvfd"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etTreatment2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="vfdbdbdbd"
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/etDegreeName2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/etRegNumber2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etDoctorAddress2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/etMobileNumber2"
+            android:layout_width="10dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/Date_send5"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+
+        <Button
+            android:id="@+id/btnPdf"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear4"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Age_textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="ADDRESS :"
+            android:textColor="#aa0050"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/Age_etMessage5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/backgroundbox"
+            android:ems="10"
+            android:hint="Address of Patient"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+
+            android:textStyle=
+
+                "bold|italic"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/Age_send5"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rightarrow"
+            app:tint="#aa0050" />
+    </LinearLayout>
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/backArrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:contentDescription="@string/todo123"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/profile_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/leftarrow"
+                app:tint="@color/white" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:src="@drawable/coronavirus"
+
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/backArrow"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/userNameChat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/mind_games"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/profile_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/iconsgallary"
+                app:tint="@android:color/white" />
+
+
+            <ImageView
+                android:id="@+id/img_diagnosis"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginRight="42dp"
+                android:contentDescription="@string/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.6"
+                app:srcCompat="@drawable/diagnosis" />
+
+
+            <ImageView
+                android:id="@+id/imgDieaase"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="75dp"
+                android:layout_marginRight="75dp"
+                android:contentDescription="@string/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.6"
+                app:srcCompat="@drawable/autoimmunedisease" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</RelativeLayout>

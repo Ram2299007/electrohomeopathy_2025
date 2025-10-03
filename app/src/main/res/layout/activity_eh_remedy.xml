@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpeOfAge.EhRemedy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scofoloso"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFD740"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Scrofoloso"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/conceroso"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/temp1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#18FFFF"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Conceroso"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/angitico"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/temp2"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FF5252"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Angiotico"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/petrolae"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFD740"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Petrales"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/FEBRIFUGO"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#18FFFF"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Febrifugo"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/VERONICA"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FF5252"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Venereo"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lympatic"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFD740"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Lynfatico"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/vermifugo"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#18FFFF"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Vermifugos"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/Electricity"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/temp3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FF5252"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Electricity"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

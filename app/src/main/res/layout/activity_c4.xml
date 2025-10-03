@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EhRemedy.conceroso.c4">
+
+
+    <com.mgUnicorn.eh.ZoomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zoom_linear_layoutc4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:text="CANCESORO-4"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+  android:text="
+Specially useful in bone diseases, and it is also useful in nails hairs etc.
+Ankylosis, abscess, bone diseases, bone pains, cancer[pains of which do not yield to C1], carbuncle, caries of bones, coxalgia, cysts, fistula of anus, gangrene, hip joint diseases, hydrocele, inflammation of the articulation, lumps, mumps, necrosis of bones, neuralgia, obesity, ophthalmia, osteomyelitis, osteitis, periostitis, periostitis, phthisis, blind piles, polyps of bladder, bowels, palate, nose, ear, womb. Toothache [due to decayed teeth], tuberculous cough, tubercular tumor of the belly.
+"
+            android:textColor="#651FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+android:text="
+Tissue / glandular or anti degenerative remedies.
+ •For bone and cartilages, as well as mucosal surfaces of stomach and intestine.
+•C4 used in gout, deposition of uric acid, inflammation of joints.
+•Horny substance, bony substance, construct the bones, hair and nails, deformities of bones, joints, teeth. Improvement of growth of teeth.
+•Fistula of gums, or gingivitis C4 + Linf-2 and GE.
+•C4 is best for fractures of bones and Sport injuries, dislocation of bones or joints, weakness of cartilages and tendons, bony tumors, bony injuries.
+•Gastric or duodenal ulcer, deep gangrenous ulcer over the mucosal surface.
+•Wound and ulceration, leucorrhea, Sinusitis, Discharge in ears
+"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+ android:text="1] CONIUM MACULATUM-40-Parts-Poison hemlock-\n
+Conium is an excellent remedy, such as difficult gait, trembling, sudden loss of strength while waking, painful stiffness of legs, etc. It corresponds to the debility, hypochondriasis, urinary troubles, weakened memory, sexual debility found here. General feeling as if bruised by blows. Weakness of body and mind, trembling, and palpitation. Cancerous diathesis, arterio-sclerosis, caries of sternum, enlarged glands. Acts on glandular system, insomnia of multiple neuritis.\n
+
+2] RHUS TOXICODENDRON-40-Parts-Poison ivy-\n
+The effect on the skin, rheumatic pains, mucus membrane affections, and a typhoid type of fever, make this remedy frequently indicated. Rheu’s affects fibrous tissue markedly-joints, tendons, sheaths, aponeurosis, etc. Producing pains and stiffness. Tearing asunder pains. Septic conditions, cellulitis and infections, carbuncle in early stages, septicemia, rheumatism in cold season. Inflammation of GIT.\n
+
+3] SYMPHYTUM OFFICINALE-20-Parts-Comfrey-Knitbone-\n
+It may be administered internally in the treatment of gastric and duodenal ulcers. Also in gastralgia and externally in pruritis ani. Injuries to sinews, tendons and the periosteum. Acts on joints generally, neuralgia, of knee. great use in wounds penetrating to perineum and bone, and in non-union of fractures, irritable bone at point of fracture.\n
+
+4] PIMPENELLA SAXIFRAGA-10-Parts-\n
+Used for upper respiratory tract infections, urinary tract infections, diuretic, kidney and bladder stone, calms nervous excitation, to helps digestion.\n
+
+5] VINCETOXICUM OFFICINALIS-10-Parts-Sage-\n
+Antioxidant, antibacterial, anti-inflammatory, diuretic, expectorant, promotes menstruation, acts on skin, induce vomiting, purgative, antitumor, snake bite etc.\n
+"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+      
+
+    </LinearLayout>
+
+    </com.mgUnicorn.eh.ZoomLinearLayout>
+</ScrollView>
