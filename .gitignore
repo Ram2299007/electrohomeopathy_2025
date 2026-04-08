@@ -18,3 +18,5 @@ hs_err_pid*
 replay_pid*
 sept2022KeystoreEletroH
 .claude/
+*.apk
+*.aab
