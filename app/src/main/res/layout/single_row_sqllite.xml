@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/etmobilesql"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="mobile"
+        android:background="#00B8D4"
+        android:padding="10sp"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/etClinicsql"
+        android:text="clinic"
+        android:textSize="16sp"
+
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:background="#AA00FF"
+        android:layout_width="match_parent"
+        android:padding="10sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/etDegreesql"
+        android:text="degree"
+        android:textSize="16sp"
+
+        android:padding="10sp"
+        android:background="#00B8D4"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/etregsql"
+        android:text="reg"
+        android:textSize="16sp"
+        android:padding="10sp"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:background="#AA00FF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/etaddresssql"
+        android:layout_width="match_parent"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:text="address"
+        android:background="#00B8D4"
+        android:padding="10sp"
+
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

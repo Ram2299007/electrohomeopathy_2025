@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Electrohomeopathy</string>
+    <string name="todo">TODO</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="sign_up_with_phone"><u>Sign up with phone</u></string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="click_for_signup"><u> Click for SignUp</u> !</string>
+    <string name="already_have_an_account"> <u> Already have an account ? </u></string>
+    <string name="logout">LogOut</string>
+    <string name="setting">Setting</string>
+    <string name="settings">Settings</string>
+
+    <string name="facebook_app_id">2912744962299455</string>
+    <string name="fb_login_protocol_scheme">fb2912744962299455</string>
+    <string name="message">messagae</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an_one_time_otp_on_this_given_mobile_number">We will send you an one time otp on this given mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="get_otp">Get Otp</string>
+    <string name="_9876543210">9876543210</string>
+    <string name="_91">+91</string>
+    <string name="get_otps">Get OTP</string>
+    <string name="resend_otp_again">Resend OTP again ?</string>
+    <string name="didn_t_recieve_the_otp">Didn\'t recieve the OTP</string>
+    <string name="submit">Submit</string>
+    <string name="this_is_dashboard_screen">This is dashboard screen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mind_games1">Mind Games</string>
+    <string name="last_message">Last message</string>
+    <string name="todo123">TODO</string>
+    <string name="mind_games">Mind Games</string>
+    <string name="menu">Menu</string>
+    <string name="ram_sadashiv_lohar_today_i_am_going_to_deliver_ypu_a_speech_on_the_topic_of_i_as_sure_that_you_will_give_me_hertly_cooperation_please_keep_quite_me">Ram sadashiv Lohar ,Today I am going to deliver ypu a speech on the topic of i as sure that you will give me hertly cooperation,please keep quite me.</string>
+    <string name="_1_55_pm">1:55 pm</string>
+    <string name="chat_room">Chat Room</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="leftarrow">arrow_left</string>
+    <string name="user_name">user Name</string>
+    <string name="user_namedgjdh">User Name :</string>
+    <string name="add_petients">Add Petients</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="newpetients">TODO</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="name_of_patient">Name of patient</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="ram_lohar">Ram Lohar</string>
+    <string name="patients">Patients</string>
+    <string name="deleteImg">deleteImg</string>
+    <string name="temperament_remedy_organ_remedy_symptomatic_remedy_external_appication">Temperament Remedy... Organ Remedy......... Symptomatic remedy... External Appication..</string>
+
+    <string name="unit">Cm</string>
+    <string name="femaletext">Female</string>
+    <string name="age">Age</string>
+    <string name="startingheight">170</string>
+    <string name="startingweight">55</string>
+    <string name="startingage">22</string>
+
+    <string name="height">Height</string>
+    <string name="calculate_your_bmi">Calculate Your BMI</string>
+    <string name="weight">Weight</string>
+    <string name="male">Male</string>
+    <string name="admob_app_id">ca-app-pub-9438087818784643~9482096591</string>
+    <string name="admob_banner_id">ca-app-pub-9438087818784643/5673701761</string>
+    <string name="default_web_client_id">30337028382-ik66nhvno180kfmlepldh5o1ipb2156h.apps.googleusercontent.com</string>
+    <string-array name="Gender">
+
+        <item> Male </item>
+        <item> Female </item>
+        <item> Gender Diverse </item>
+    </string-array>
+
+    <string-array name="Temperament">
+
+        <item> Sanguine Temperament </item>
+        <item> Lymphatic Temperament </item>
+        <item> Nervous Temperament </item>
+        <item> Bilious Temperament </item>
+
+    </string-array>
+
+
+</resources>

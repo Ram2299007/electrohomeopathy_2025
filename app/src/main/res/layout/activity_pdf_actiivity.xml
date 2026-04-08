@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:fitsSystemWindows="true" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pdfActiivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pdfView"
+        android:text="PDF Viewer temporarily disabled"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/whatsapp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="#40C351"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/wp"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="29dp"
+        app:tint="@android:color/white" />
+
+
+</RelativeLayout>

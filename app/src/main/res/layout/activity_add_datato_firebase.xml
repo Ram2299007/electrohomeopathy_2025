@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDatatoFirebase.addDatatoFirebase"
+    android:background="@color/purple_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp">
+
+        <EditText
+            android:id="@+id/etNameTest"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="name"
+            android:padding="10dp"
+
+            android:textSize="15sp" />
+
+
+        <EditText
+
+            android:id="@+id/etTreatmentTest"
+            android:layout_marginTop="23dp"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:hint="treatment"
+            android:background="@drawable/bg_edittext"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+
+            android:layout_marginTop="23dp"
+            android:id="@+id/buttonTest"
+            android:text="upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
