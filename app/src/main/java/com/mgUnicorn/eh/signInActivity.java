@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
@@ -213,7 +214,8 @@ public class signInActivity extends AppCompatActivity {
                             Users users=new Users();
                             users.setUserId(user.getUid());
                             users.setUserName(user.getDisplayName());
-                            users.setProfilepic(user.getPhotoUrl().toString());
+                            Uri photoUrl = user.getPhotoUrl();
+                            users.setProfilepic(photoUrl != null ? photoUrl.toString() : "");
                             database.getReference().child("Users").child(user.getUid()).setValue(users);
 
 

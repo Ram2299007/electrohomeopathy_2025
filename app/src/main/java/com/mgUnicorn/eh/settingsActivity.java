@@ -66,9 +66,16 @@ public class settingsActivity extends AppCompatActivity {
         final SharedPreferences mSharedPreference= PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         String value=(mSharedPreference.getString("clinicKey", "Default_Value"));
         String nameDoctor=(mSharedPreference.getString("userNameKey", "Default_Value"));
-
+        String cachedProfilePic = mSharedPreference.getString("profilePicKey", "");
 
         binding.etDoctorusername.setText(nameDoctor);
+
+        if (!cachedProfilePic.isEmpty()) {
+            Picasso.get()
+                    .load(cachedProfilePic)
+                    .placeholder(R.drawable.doctortwo)
+                    .into(binding.profileImage);
+        }
 
         binding.leftArrow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -168,11 +175,7 @@ public class settingsActivity extends AppCompatActivity {
                 root.child("SETTINGHOLD").child(FirebaseAuth.getInstance().getUid())
                         .setValue(pm);
 
-                binding.etStatusSetting.setText("");
-                //    binding.etClinicNameSetting.setText("");
-                binding.etDegreeSetting.setText("");
-                binding.etRegSetting.setText("");
-                binding.etAddressSetting.setText("");
+
 
 
 
@@ -190,7 +193,7 @@ public class settingsActivity extends AppCompatActivity {
                 editor.putString("addressKey", address);
                 editor.putString("userNameKey", userName);
                 editor.commit();
-
+                Toast.makeText(settingsActivity.this, "Saved successfully!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -202,19 +205,15 @@ public class settingsActivity extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         Users users= snapshot.getValue(Users.class);
-                        assert users != null;
+                        if (users == null) return;
                         Picasso.get()
                                 .load(users.getProfilepic())
                                 .placeholder(R.drawable.doctortwo)
                                 .into(binding.profileImage);
                         try {
-                            //   binding.etStatus.setText(users.getStatus());
-                            //binding.etDoctorusername.setText(users.getUserName());
-                            //    binding.etClinicName.setText(users.getClinic());
-                            //     binding.etDegree.setText(users.getDegree());
-                            //    binding.etReg.setText(users.getReg());
-                            //    binding.etAddress.setText(users.getAddress());
-
+                            if (users.getUserName() != null && !users.getUserName().isEmpty()) {
+                                binding.etDoctorusername.setText(users.getUserName());
+                            }
                         }catch (Exception e){
 
                         }
@@ -262,32 +261,45 @@ public class settingsActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        // Add null checks to prevent NullPointerException
-        if(data != null && data.getData() != null){
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == 33 && resultCode == RESULT_OK && data != null && data.getData() != null) {
 
             Uri sFile = data.getData();
             binding.profileImage.setImageURI(sFile);
 
-            final StorageReference reference=storage.getReference().child("Profile_Picture")
+            Toast.makeText(this, "Uploading photo...", Toast.LENGTH_SHORT).show();
+
+            final StorageReference reference = storage.getReference().child("Profile_Picture")
                     .child(Objects.requireNonNull(FirebaseAuth.getInstance().getUid()));
 
-            reference.putFile(sFile).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                @Override
-                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                    reference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            reference.putFile(sFile)
+                    .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
-                        public void onSuccess(Uri uri) {
-                            database.getReference().child("Users")
-                                    .child(Objects.requireNonNull(FirebaseAuth.getInstance().getUid()))
-                                    .child("profilepic").setValue(uri.toString());
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            reference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                                @Override
+                                public void onSuccess(Uri uri) {
+                                    String photoUrl = uri.toString();
+                                    database.getReference().child("Users")
+                                            .child(Objects.requireNonNull(FirebaseAuth.getInstance().getUid()))
+                                            .child("profilepic").setValue(photoUrl);
+                                    SharedPreferences.Editor editor = PreferenceManager
+                                            .getDefaultSharedPreferences(getApplicationContext()).edit();
+                                    editor.putString("profilePicKey", photoUrl);
+                                    editor.apply();
+                                    Picasso.get()
+                                            .load(photoUrl)
+                                            .placeholder(R.drawable.doctortwo)
+                                            .into(binding.profileImage);
+                                    Toast.makeText(settingsActivity.this, "Profile photo updated!", Toast.LENGTH_SHORT).show();
+                                }
+                            });
                         }
-                    });
-                }
-            });
-
+                    })
+                    .addOnFailureListener(e -> Toast.makeText(settingsActivity.this,
+                            "Upload failed: " + e.getMessage(), Toast.LENGTH_LONG).show());
         }
-
-        super.onActivityResult(requestCode, resultCode, data);
     }
 
 
