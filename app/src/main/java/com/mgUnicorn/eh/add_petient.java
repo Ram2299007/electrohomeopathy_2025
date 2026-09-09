@@ -1,15 +1,12 @@
 package com.mgUnicorn.eh;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ContentResolver;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
-import android.webkit.MimeTypeMap;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -21,32 +18,26 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.OnProgressListener;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.StorageTask;
-import com.google.firebase.storage.UploadTask;
 import com.mgUnicorn.eh.databinding.AddPetientBinding;
 import com.mgUnicorn.eh.models.patientModel;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
-import java.util.Objects;
 
 public class add_petient extends AppCompatActivity {
+
+    // adb logcat -s AddPatient
+    private static final String TAG = "AddPatient";
+
+    public static final String EXTRA_NEW_PATIENT_KEY = "newPatientKey";
 
     private ProgressBar progressBar;
     //firebase
     private DatabaseReference root = FirebaseDatabase.getInstance().getReference();
-    private StorageReference reference = FirebaseStorage.getInstance().getReference("patients");
-    private Uri imageUri;
-    StorageTask mStoragetask;
-    int count;
+    private String uid;
 
     AddPetientBinding binding;
-
-    //facebook banner ads
 
 
     @Override
@@ -59,212 +50,142 @@ public class add_petient extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-// Initialize the Mobile Ads SDK
-
-
-
-
-
         progressBar = findViewById(R.id.progressBar_pb2);
 
         progressBar.setVisibility(View.INVISIBLE);
 
-
-        SimpleDateFormat dateF = new SimpleDateFormat("dd/MM/yyyy , HH:mm a", Locale.getDefault());
-
-
-        // only for Ediitext
-        SimpleDateFormat timef = new SimpleDateFormat("HH:mm", Locale.getDefault());
-        String date = dateF.format(Calendar.getInstance().getTime());
-        String time = timef.format(Calendar.getInstance().getTime());
-
-
-
-
-        binding.newpetients.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent gallaryIntent = new Intent();
-                gallaryIntent.setAction(Intent.ACTION_GET_CONTENT);
-                gallaryIntent.setType("image/*");
-                startActivityForResult(gallaryIntent, 2);
-
-            }
-        });
+        // Without a signed in user every save below would crash on a null uid.
+        uid = FirebaseAuth.getInstance().getUid();
+        Log.d(TAG, "onCreate: uid=" + uid);
+        if (uid == null) {
+            Log.e(TAG, "onCreate: no signed-in user, closing screen");
+            Toast.makeText(this, "Please sign in first to add a patient", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
 
 
+        // Only name and number are collected. The icon at the top is decoration.
         binding.buttonUpload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (binding.etPersonName.getText().toString().isEmpty()) {
-                    binding.etPersonName.setError("Patient name is empty");
+                Log.d(TAG, "SUBMIT pressed | name=\"" + binding.etPersonName.getText()
+                        + "\" number=\"" + binding.etNumber.getText() + "\"");
+
+                if (!isFormValid()) {
                     return;
                 }
 
-                if (binding.etNumber.getText().toString().isEmpty()) {
-                    binding.etNumber.setError("Patient name is empty");
-                    return;
-                }
-
-
-                if (mStoragetask != null && mStoragetask.isInProgress()) {
-
-
-                } else {
-                    if (imageUri != null) {
-
-                        uploadtoFirebase(imageUri);
-
-                    } else {
-                    }
-
-
-                }
-
-
-            }
-        });
-
-
-        binding.buttonWithoutUpload.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-                if(binding.etPersonName.getText().toString().isEmpty()){
-
-                    binding.etPersonName.setError("Fill up message");
-                    return;
-                }
-
-
-                if(binding.etNumber.getText().toString().isEmpty()){
-
-                    binding.etNumber.setError("Fill up message");
-                    return;
-                }
-
-
-
-
-
-                patientModel model = new patientModel(binding.etPersonName.getText().toString(), binding.etNumber.getText().toString(),"Reg.No-"+binding.etDate.getText().toString());
-                String modelId = root.push().getKey();
-                assert modelId != null;
-                root.child("patient").child(Objects.requireNonNull(FirebaseAuth.getInstance().getUid())).child(modelId)
-                        .setValue(model);
-
-                progressBar.setVisibility(View.INVISIBLE);
-
-
-
-
-
-                opdModel opdModel=new opdModel(date,binding.etPersonName.getText().toString(),binding.etNumber.getText().toString());
-                String id=root.push().getKey();
-                assert id != null;
-                root.child("OPDPatient").child(FirebaseAuth.getInstance().getUid()).child(id)
-                        .setValue(opdModel);
-
-                //startActivity(new Intent(add_petient.this, MainActivity.class));
+                setBusy(true);
+                savePatient();
             }
         });
     }
 
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (requestCode == 2 && resultCode == RESULT_OK && data != null) {
-
-            imageUri = data.getData();
-            binding.newpetients.setImageURI(imageUri);
+    private boolean isFormValid() {
+        if (binding.etPersonName.getText().toString().trim().isEmpty()) {
+            Log.w(TAG, "validation failed: patient name empty");
+            binding.etPersonName.setError("Patient name is empty");
+            binding.etPersonName.requestFocus();
+            return false;
         }
+
+        if (binding.etNumber.getText().toString().trim().isEmpty()) {
+            Log.w(TAG, "validation failed: mobile number empty");
+            binding.etNumber.setError("Mobile number is empty");
+            binding.etNumber.requestFocus();
+            return false;
+        }
+
+        return true;
     }
 
 
-    private void uploadtoFirebase(Uri uri) {
+    private void setBusy(boolean busy) {
+        Log.d(TAG, "setBusy(" + busy + ")");
+        progressBar.setVisibility(busy ? View.VISIBLE : View.INVISIBLE);
+        binding.buttonUpload.setEnabled(!busy);
+    }
 
+
+    /**
+     * Writes the patient under patient/{uid} and OPDPatient/{uid}.
+     */
+    private void savePatient() {
 
         SimpleDateFormat dateF = new SimpleDateFormat("dd/MM/yyyy , HH:mm a", Locale.getDefault());
-
-
-        // only for Ediitext
-        SimpleDateFormat timef = new SimpleDateFormat("HH:mm", Locale.getDefault());
         String date = dateF.format(Calendar.getInstance().getTime());
-        String time = timef.format(Calendar.getInstance().getTime());
 
+        String name = binding.etPersonName.getText().toString().trim();
+        String number = binding.etNumber.getText().toString().trim();
+        String regNo = "Reg.No-" + binding.etDate.getText().toString();
 
+        patientModel model = new patientModel(name, number, regNo);
 
-        StorageReference fileRef = reference.child(System.currentTimeMillis()
-                + "." + getFileExtension(uri));
+        Log.d(TAG, "savePatient: name=" + name + " number=" + number + " regNo=" + regNo);
 
-        mStoragetask = fileRef.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+        String modelId = root.push().getKey();
+        if (modelId == null) {
+            Log.e(TAG, "savePatient: push() returned a null key");
+            setBusy(false);
+            Toast.makeText(this, "Could not save, please try again", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
-                fileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+        Log.d(TAG, "savePatient: writing to patient/" + uid + "/" + modelId);
+
+        root.child("patient").child(uid).child(modelId)
+                .setValue(model)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
-                    public void onSuccess(Uri uri) {
+                    public void onSuccess(Void unused) {
 
+                        Log.i(TAG, "savePatient: OK -> patient/" + uid + "/" + modelId);
 
+                        // this is for opd registration
+                        opdModel opdModel = new opdModel(date, name, number);
+                        String id = root.push().getKey();
+                        if (id != null) {
+                            Log.d(TAG, "savePatient: writing to OPDPatient/" + uid + "/" + id);
+                            root.child("OPDPatient").child(uid).child(id).setValue(opdModel)
+                                    .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void v) {
+                                            Log.i(TAG, "OPD entry saved");
+                                        }
+                                    })
+                                    .addOnFailureListener(new OnFailureListener() {
+                                        @Override
+                                        public void onFailure(@NonNull Exception e) {
+                                            Log.e(TAG, "OPD entry FAILED", e);
+                                        }
+                                    });
+                        } else {
+                            Log.e(TAG, "savePatient: OPD push() returned a null key");
+                        }
 
-                        patientModel model = new patientModel(uri.toString(), binding.etPersonName.getText().toString(), binding.etNumber.getText().toString(),"Reg.No-"+binding.etDate.getText().toString());
-                        String modelId = root.push().getKey();
-                        assert modelId != null;
-                        root.child("patient").child(Objects.requireNonNull(FirebaseAuth.getInstance().getUid())).child(modelId)
-                                .setValue(model);
+                        setBusy(false);
+                        Toast.makeText(add_petient.this, "Patient saved", Toast.LENGTH_SHORT).show();
 
-                        progressBar.setVisibility(View.INVISIBLE);
-
-
-                        binding.newpetients.setImageResource(R.drawable.ic_baseline_add_photo_alternate_24);
-
-                        //this is for opd registration
-                   //     opdModel opdModel=new opdModel(date,binding.etPersonName.getText().toString(),binding.etNumber.getText().toString());
-
-
-                      opdModel opdModel=new opdModel(date,binding.etPersonName.getText().toString(),binding.etNumber.getText().toString());
-                        String id=root.push().getKey();
-                        assert id != null;
-                        root.child("OPDPatient").child(FirebaseAuth.getInstance().getUid()).child(id)
-                                .setValue(opdModel);
-
-
+                        // tells statusFragment which row to highlight
+                        Intent result = new Intent();
+                        result.putExtra(EXTRA_NEW_PATIENT_KEY, modelId);
+                        setResult(RESULT_OK, result);
+                        finish();
                     }
-                });
-
-
-            }
-        })
+                })
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-
-                        progressBar.setVisibility(View.INVISIBLE);
-                    }
-                })
-                .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-                    @Override
-                    public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
-
-                        progressBar.setVisibility(View.VISIBLE);
+                        Log.e(TAG, "savePatient FAILED at patient/" + uid + "/" + modelId, e);
+                        setBusy(false);
+                        Toast.makeText(add_petient.this,
+                                "Could not save patient: " + e.getMessage(), Toast.LENGTH_LONG).show();
                     }
                 });
-
-    }
-
-
-    private String getFileExtension(Uri mUri) {
-        ContentResolver cR = getContentResolver();
-        MimeTypeMap mime = MimeTypeMap.getSingleton();
-        return mime.getExtensionFromMimeType(cR.getType(mUri));
-
     }
 
 
 }
-
-

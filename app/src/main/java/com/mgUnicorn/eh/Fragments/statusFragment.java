@@ -1,5 +1,6 @@
 package com.mgUnicorn.eh.Fragments;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -41,9 +42,13 @@ public class statusFragment extends Fragment  {
 
     }
 
+    private static final int REQUEST_ADD_PATIENT = 101;
+
     FragmentStatusBinding binding;
    // ArrayList<patientModel>list=new ArrayList<>();
     testAdapter adapter;
+
+
 
 
 
@@ -63,7 +68,13 @@ public class statusFragment extends Fragment  {
         String currentUserId = FirebaseAuth.getInstance().getUid();
         Log.d("StatusFragment", "Current user ID: " + currentUserId);
 
-        binding.statusRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        // Firebase gives patients oldest-first. Reversing the layout draws the last
+        // child at the top, and stackFromEnd anchors the list there, so the patient
+        // added most recently is the first row on screen.
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
+        layoutManager.setReverseLayout(true);
+        layoutManager.setStackFromEnd(true);
+        binding.statusRecyclerView.setLayoutManager(layoutManager);
 
         if (currentUserId != null) {
             // First, let's check if there's any data in the database
@@ -154,7 +165,8 @@ public class statusFragment extends Fragment  {
         binding.floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), add_petient.class));
+                startActivityForResult(new Intent(getActivity(), add_petient.class),
+                        REQUEST_ADD_PATIENT);
             }
         });
 
@@ -173,13 +185,7 @@ public class statusFragment extends Fragment  {
         binding.floatingActionButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                binding.statusRecyclerView.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        binding.statusRecyclerView.scrollToPosition(  binding.statusRecyclerView.getAdapter().getItemCount() - 1);
-                    }
-                }, 1000);
-
+                scrollToNewest();
             }
         });
         return binding.getRoot();
@@ -189,6 +195,39 @@ public class statusFragment extends Fragment  {
 
 
 
+    }
+
+
+    /**
+     * Jumps to the newest patient. That is still the last adapter position, but with the
+     * reversed layout it is drawn at the top of the screen.
+     */
+    private void scrollToNewest() {
+        if (binding == null || binding.statusRecyclerView.getAdapter() == null) {
+            return;
+        }
+        final int lastPosition = binding.statusRecyclerView.getAdapter().getItemCount() - 1;
+        if (lastPosition < 0) {
+            return;
+        }
+        // scrollToPosition jumps straight there, no scrolling animation
+        binding.statusRecyclerView.scrollToPosition(lastPosition);
+    }
+
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_ADD_PATIENT && resultCode == Activity.RESULT_OK && data != null) {
+            String newKey = data.getStringExtra(add_petient.EXTRA_NEW_PATIENT_KEY);
+            Log.d("StatusFragment", "patient added, highlighting key " + newKey);
+
+            // no scrolling: the reversed layout already puts the newest row on top
+            if (adapter != null && newKey != null) {
+                adapter.setHighlightedKey(newKey);
+            }
+        }
     }
 
 

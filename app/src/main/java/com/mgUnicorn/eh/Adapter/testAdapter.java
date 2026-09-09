@@ -3,6 +3,8 @@ package com.mgUnicorn.eh.Adapter;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +17,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
+import androidx.cardview.widget.CardView;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.mgUnicorn.eh.ChatDetailsPatient3;
@@ -39,8 +43,34 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class testAdapter extends FirebaseRecyclerAdapter<patientModel, testAdapter.myviewholder> {
     Context context;
 
+    private static final long HIGHLIGHT_MS = 2000;
+
+    // Firebase key of the patient just added, drawn with a coloured card. May be set
+    // before that row has loaded; the row picks the colour up when it binds.
+    private String highlightedKey;
+    private boolean highlightTimerStarted;
+
+    private final Handler highlightHandler = new Handler(Looper.getMainLooper());
+    private final Runnable clearHighlight = new Runnable() {
+        @Override
+        public void run() {
+            Log.d("TestAdapter", "highlight expired, clearing");
+            highlightedKey = null;
+            notifyDataSetChanged();
+        }
+    };
+
     public testAdapter(@NonNull FirebaseRecyclerOptions<patientModel> options) {
         super(options);
+    }
+
+    public void setHighlightedKey(String key) {
+        highlightHandler.removeCallbacks(clearHighlight);
+        this.highlightedKey = key;
+        // the countdown starts once the row is actually on screen, not now: with a long
+        // patient list Firebase may take longer than the highlight itself to deliver it
+        this.highlightTimerStarted = false;
+        notifyDataSetChanged();
     }
 
     @Override
@@ -68,6 +98,20 @@ public class testAdapter extends FirebaseRecyclerAdapter<patientModel, testAdapt
         holder.RegDate.setText(String.valueOf(position + 1));
 
         String key=getRef(position).getKey();
+
+        boolean isJustAdded = key != null && key.equals(highlightedKey);
+        if (holder.itemView instanceof CardView) {
+            ((CardView) holder.itemView).setCardBackgroundColor(
+                    ContextCompat.getColor(holder.itemView.getContext(),
+                            isJustAdded ? R.color.new_patient_highlight : R.color.white));
+        }
+        if (isJustAdded && !highlightTimerStarted) {
+            highlightTimerStarted = true;
+            Log.d("TestAdapter", "highlighting newly added patient at position " + position
+                    + " for " + HIGHLIGHT_MS + "ms");
+            highlightHandler.postDelayed(clearHighlight, HIGHLIGHT_MS);
+        }
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
